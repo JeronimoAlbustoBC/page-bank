@@ -1,0 +1,63 @@
+@import "@/app/mixins.scss";
+.container {
+  display: flex;
+  flex-direction: column;
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include body3;
+    padding: var(--spacing-md) var(--spacing-xxl) var(--spacing-md)
+      var(--spacing-xxl);
+    color: var(--black);
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 150ms ease;
+
+    &.bold {
+      font-weight: bold;
+    }
+
+    &:hover,
+    &:active,
+    &.active {
+      background-color: var(--color-green-200);
+    }
+
+    svg {
+      stroke: var(--color-info-800);
+      fill: var(--color-info-800);
+    }
+  }
+
+  .subitems {
+    height: 0;
+    overflow: hidden;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-property: height;
+    .item {
+      padding-left: calc(1.5 * var(--spacing-xxl));
+    }
+    display: flex;
+    flex-direction: column;
+
+    &.opened {
+      height: fit-content;
+    }
+  }
+}
+
+
+.container button[id$='inversiones.bancodecomercio.com.ar'] {
+  background-color: var(--color-white);
+  border: 3px solid #2a4e5d;
+  color: #2a4e5d;
+  font-weight: bold;
+}
+
+
+

@@ -1,0 +1,299 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Contá con el apoyo de especialistas en cada operación de COMEX",
+        "titleVariant": "h2",
+        "background": "/images/comex/hero/hero-1.png",
+        "backgroundAlt": "",
+        "breadcrumbColor": "color-white"
+      },
+      "two": {
+        "title": "Cada operación COMEX en los plazos que tu negocio necesita",
+        "titleVariant": "h2",
+        "background": "/images/comex/hero/hero-2.png",
+        "backgroundAlt": "",
+        "breadcrumbColor": "color-white"
+      }
+    }
+  },
+  "subherogreen": {
+    "title": "Las fronteras se convierten en nuevas oportunidades con COMEX",
+    "text": "Ofrecemos productos financieros y atención personalizada para gestionar tus importaciones y exportaciones, alineados con cada etapa de crecimiento de tu empresa."
+  },
+
+  "subhero": {
+    "titles": {
+      "one": {
+        "title": "Importación",
+        "icon": "Boat",
+        "text": "Financiamos las importaciones asegurando que cada operación sea ágil, segura y eficiente. Con nuestro respaldo la gestión de tus importaciones es más simple."
+      },
+      "two": {
+        "title": "Exportación",
+        "icon": "LocalShipping",
+        "text": "Prefinanciamos tus exportaciones permitiendo que tus productos lleguen a cualquier parte del mundo. Con nuestro acompañamiento accedes a mercados globales de forma eficiente y sin contratiempos."
+      }
+    },
+    "list": {
+      "one": {
+        "image": "/images/comex/cards/card-1.png",
+        "imageAlt": "Card",
+        "text": "Accedé a asesoría customizada para completar toda la documentación requerida"
+      },
+      "two": {
+        "image": "/images/comex/cards/card-2.png",
+        "imageAlt": "Card",
+        "text": "Gestionamos soluciones de COMEX en los tiempos que tu negocio necesita"
+      },
+      "three": {
+        "image": "/images/comex/cards/card-3.png",
+        "imageAlt": "Card",
+        "text": "Seguridad en tu operatoria contando con seguimiento continuo y personalizado de tus transacciones internacionales"
+      }
+    }
+  },
+  "greenBox": {
+    "title": "Descargá los formularios<br></br> para empezar a operar",
+    "list": {
+      "importacion": {
+        "title": "Importaciones",
+        "text": "Hacemos que importar sea fácil y seguro con soluciones financieras a medida. Con nosotros, tus productos llegan sin complicaciones desde cualquier parte del mundo.",
+        "isHidden": true,
+        "list": {
+          "setvicios": {
+            "isHidden": true,
+            "title": "Servicios",
+            "list": {
+              "one": {
+                "text": "DDJJ PUNTO 1.6 COM 7952.rtf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/DDJJ PUNTO 1.6 COM 7952.rtf"
+              },
+              "two": {
+                "text": "F-69-5-Información del Beneficiario.pdf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/F-69-5-Información del Beneficiario.pdf"
+              },
+              "three": {
+                "text": "F-310-6-Sol.Transf.Servicios.pdf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/F-310-6-Sol.Transf.Servicios.pdf"
+              },
+              "four": {
+                "text": "F-410-3 Anexo aperturas.pdf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/F-410-3 Anexo aperturas.pdf"
+              },
+              "five": {
+                "text": "F-431-1- DDJJ PH ComA7746.pdf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/F-431-1- DDJJ PH ComA7746.pdf"
+              },
+              "six": {
+                "text": "F-432-4- DDJJ PJ ComA 7772.pdf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/F-432-4- DDJJ PJ ComA 7772.pdf"
+              },
+              "seven": {
+                "text": "F-436-2 BVD 7746.pdf",
+                "link": "/archivos/comex/IMPO/SERVICIOS/F-436-2 BVD 7746.pdf"
+              }
+            }
+          },
+          "bienes-courier": {
+            "title": "Bienes Courier",
+            "list": {
+              "one": {
+                "text": "DDJJ PUNTO 1.2 IV) COM A 7917 BIENES.rtf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/DDJJ PUNTO 1.2 IV) COM A 7917 BIENES.rtf"
+              },
+              "two": {
+                "text": "DDJJ PUNTO 1.6 COM 7952.rtf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/DDJJ PUNTO 1.6 COM 7952.rtf"
+              },
+              "three": {
+                "text": "F-69-5-Información del Beneficiario.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-69-5-Información del Beneficiario.pdf"
+              },
+              "four": {
+                "text": "F-309-8-Sol.Transf.Bienes.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-309-8-Sol.Transf.Bienes.pdf"
+              },
+              "five": {
+                "text": "F-392-1 DD.JJ. Comunicación A 7532.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-392-1 DD.JJ. Comunicación A 7532.pdf"
+              },
+              "six": {
+                "text": "F-401-3 BVD.7746Bienes-courier.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-401-3 BVD.7746Bienes-courier.pdf"
+              },
+              "seven": {
+                "text": "F-410-3 Anexo aperturas.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-410-3 Anexo aperturas.pdf"
+              },
+              "eight": {
+                "text": "F-431-1- DDJJ PH ComA7746.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-431-1- DDJJ PH ComA7746.pdf"
+              },
+              "nine": {
+                "text": "F-432-4- DDJJ PJ ComA 7772.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/F-432-4- DDJJ PJ ComA 7772.pdf"
+              },
+              "ten": {
+                "text": "MODELO D.S.I v3.1 - 10 AP-v.3.2..xls",
+                "link": "/archivos/comex/IMPO/BIENES/COURIER/MODELO D.S.I v3.1 - 10 AP-v.3.2..xls"
+              }
+            }
+          },
+          "bienes-regimen-general": {
+            "title": "Bienes Régimen General",
+            "list": {
+              "one": {
+                "text": "DDJJ ART 1 COM A 8074 BIENES.rtf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/DDJJ ART 1 COM A 8074 BIENES.rtf"
+              },
+              "two": {
+                "text": "DDJJ PUNTO 1.2 IV) COM A 7917 BIENES.rtf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/DDJJ PUNTO 1.2 IV) COM A 7917 BIENES.rtf"
+              },
+              "three": {
+                "text": "DDJJ PUNTO 1.6 COM 7952.rtf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/DDJJ PUNTO 1.6 COM 7952.rtf"
+              },
+              "four": {
+                "text": "DDJJ PUNTO 3.16.3.6 T.O.rtf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/DDJJ PUNTO 3.16.3.6 T.O.rtf"
+              },
+              "five": {
+                "text": "F-69-5-Información del Beneficiario.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/F-69-5-Información del Beneficiario.pdf"
+              },
+              "six": {
+                "text": "F-307-12BVD.7746 REG.GRAL.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/F-307-12BVD.7746 REG.GRAL.pdf"
+              },
+              "seven": {
+                "text": "F-392-2 DD.JJ. ComA 7532.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/F-392-2 DD.JJ. ComA 7532.pdf"
+              },
+              "eight": {
+                "text": "F-410-3 Anexo aperturas.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/F-410-3 Anexo aperturas.pdf"
+              },
+              "nine": {
+                "text": "F-431-1- DDJJ PH ComA7746.pdf",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/F-431-1- DDJJ PH ComA7746.pdf"
+              },
+              "ten": {
+                "text": "MODELO D.S.I v3.2 - REG. GRAL..xls",
+                "link": "/archivos/comex/IMPO/BIENES/REGIMEN GENERAL/MODELO D.S.I v3.2 - REG. GRAL..xls"
+              }
+            }
+          }
+        },
+        "icon": "Boat"
+      },
+      "exportacion": {
+        "title": "Exportaciones",
+        "text": "Simplificamos tus exportaciones con herramientas que hacen cada operación internacional más fácil y segura. Con nuestro apoyo, tus productos llegan a mercados globales sin problemas.",
+        "list": {
+          "servicios": {
+            "title": "Servicios",
+            "list": {
+              "one": {
+                "text": "CE0168 - Solicitud Cierre de Cambio yo Acreditacion en Cuenta Divisas.pdf",
+                "link": "/archivos/comex/EXPO/SERVICIOS/CE0168 - Solicitud Cierre de Cambio yo Acreditacion en Cuenta Divisas.pdf"
+              },
+              "two": {
+                "text": "DDJJ 2.2.2.rtf",
+                "link": "/archivos/comex/EXPO/SERVICIOS/DDJJ 2.2.2.rtf"
+              },
+              "three": {
+                "text": "F-COMEX-0013 - 12 .pdf",
+                "link": "/archivos/comex/EXPO/SERVICIOS/F-COMEX-0013 - 12 .pdf"
+              },
+              "four": {
+                "text": "F-COMEX-0019-5 .pdf",
+                "link": "/archivos/comex/EXPO/SERVICIOS/F-COMEX-0019-5 .pdf"
+              }
+            }
+          },
+          "bienes": {
+            "title": "Bienes",
+            "list": {
+              "one": {
+                "text": "F-COMEX-0013 - 12 .pdf",
+                "link": "/archivos/comex/EXPO/BIENES/F-COMEX-0013 - 12 .pdf"
+              },
+              "two": {
+                "text": "F-COMEX-0013B5 - 12 .pdf",
+                "link": "/archivos/comex/EXPO/BIENES/F-COMEX-0013B5 - 12 .pdf"
+              },
+              "three": {
+                "text": "F-COMEX-0019-5 .pdf",
+                "link": "/archivos/comex/EXPO/BIENES/F-COMEX-0019-5 .pdf"
+              },
+              "four": {
+                "text": "F-COMEX-0025 - 03.pdf",
+                "link": "/archivos/comex/EXPO/BIENES/F-COMEX-0025 - 03.pdf"
+              }
+            }
+          }
+        },
+        "icon": "LocalShipping"
+      },
+      "financiacionimportacion": {
+        "title": "Financiación de Importación",
+        "text": "Asegurá el pago de tus compras internacionales con nuestra línea de crédito específica para importadores y financiá tus operaciones en dólares y euros.",
+        "icon": "Task",
+        "ctaText": "Contáctanos",
+        "formDefault": "Financiamiento de Importaciones",
+        "ctaLink": "/comex/solicitud-de-servicios"
+      },
+      "financiacionexportacion": {
+        "title": "Financiación de Exportación",
+        "text": "Impulsá el crecimiento de tu negocio y garantizá el cobro de tus exportaciones en dólares y euros.",
+        "icon": "Checklist",
+        "ctaText": "Contáctanos",
+        "formDefault": "Financiamiento de Exportaciones",
+        "ctaLink": "/comex/solicitud-de-servicios"
+      }
+    }
+  },
+  "propuestas": {
+    "title": "Conoce nuestras propuestas por tipo de empresa.",
+    "list": {
+      "one": {
+        "icon": "Widgets",
+        "title": "Soluciones <br></br>para Comercios",
+        "list": {
+          "one": "Préstamo a sola firma",
+          "two": "Descuento de cheques",
+          "three": "Tarjeta Corporativa"
+        },
+
+        "ctaText": "Conocé Más",
+        "ctaLink": "/negocios-y-profesionales"
+      },
+      "two": {
+        "icon": "Storefront",
+        "title": "Soluciones <br></br>para PYMES",
+        "list": {
+          "one": "COMEX",
+          "two": "Descuento de cheques",
+          "three": "Préstamos de capital de trabajo",
+          "four": "Inversiones",
+          "five": "Leasing"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-pymes"
+      },
+      "three": {
+        "icon": "Enterprise",
+        "title": "Soluciones <br></br>para Empresas ",
+        "list": {
+          "one": "APIs",
+          "two": "Cesión de cobros",
+          "three": "Financiamiento"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas"
+      }
+    }
+  }
+}

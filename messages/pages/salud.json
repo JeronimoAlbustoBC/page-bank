@@ -1,0 +1,208 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Generá previsibilidad en la caja de tu centro de salud con nuestro factoring",
+        "subtitle": "",
+        "ctaText": "Conocé más",
+        "ctaLink": "/salud/solicitud-de-servicios",
+        "image": "/images/salud/hero/hero-1.png",
+        "imageAlt": "salud",
+        "imageDecoration": "two",
+        "imageDecorationColor": "color-agro-500",
+        "breadcrumbColor": "color-navy-blue-800",
+        "backgroundColor": "color-agro-100",
+        "formDefault": "Soluciones para Salud"
+      },
+      "two": {
+        "title": "Abrí tu cuenta bonificada y recibí $5.000.000 de reintegro en tus compras de insumos",
+        "subtitle": "",
+        "ctaText": "Conocé más",
+        "ctaLink": "/salud/solicitud-de-servicios",
+        "image": "/images/salud/hero/hero-2.png",
+        "imageAlt": "salud",
+        "imageDecoration": "two",
+        "imageDecorationColor": "color-agro-600p",
+        "breadcrumbColor": "color-navy-blue-800",
+        "backgroundColor": "color-agro-50",
+        "formDefault": "Soluciones para Salud"
+      },
+      "three": {
+        "title": "Creamos una Alianza con Adecra + Cedim y medOX.",
+        "subtitle": "Descubrí los beneficios para tu centro de salud",
+        "ctaText": "Conocé más",
+        "ctaLink": "/salud/solicitud-de-servicios",
+        "image": "/images/salud/hero/hero-3.png",
+        "imageAlt": "salud",
+        "imageDecoration": "two",
+        "imageDecorationColor": "color-agro-50",
+        "breadcrumbColor": "color-navy-blue-800",
+        "backgroundColor": "color-agro-200",
+        "formDefault": "Soluciones para Salud"
+      }
+    }
+  },
+  "marquee": {
+    "list": {
+      "one": { "name": "PRÉSTAMOS", "link": "" },
+      "two": { "name": "FACTORING", "link": "" },
+      "three": { "name": "APIs", "link": "" },
+      "four": { "name": "ACUERDO DE CUENTA CORRIENTE", "link": "" },
+      "five": { "name": "INVERSIONES", "link": "" }
+    }
+  },
+  "sectionOne": {
+    "image": "/images/salud/alianza.png",
+    "imageAlt": "salud",
+    "imageDecoration": "one",
+    "imageDecorationColor": "color-agro-500",
+    "title": "Tenemos soluciones financieras para tu centro de salud",
+    "text": "En el mundo de la salud, cada detalle cuenta. Sabemos que tu prioridad es el bienestar de tus pacientes y que para lograrlo necesitás una gestión financiera sólida y previsible que te permita gestionar eficientemente tu centro de salud."
+  },
+  "cuenta": {
+    "image": "/images/salud/cuenta.png",
+    "imageAlt": "",
+    "imageDecoration": "four",
+    "imageDecorationColor": "color-green-300",
+    "one": {
+      "title": "Abrí tu cuenta BONIFICADA en Banco de Comercio y accedé a $5.000.000 de REINTEGRO para tus compras de insumos.",
+      "ctaLink": "/salud/solicitud-de-servicios",
+      "formDefault": "Soluciones para Salud",
+      "ctaText": "Consultar"
+    },
+    "two": {
+      "text": "<br> </br>Con nuestra propuesta de valor vas a poder:",
+      "list": {
+        "one": "Brinda previsibilidad de tu flujo de caja",
+        "two": "Optimizar tu proceso de toma de decisiones pudiendo prever acciones y contar con respaldo financiero",
+        "three": "Adelantar tu cobranza y mejorar tu posición ante proveedores"
+      },
+      "ctaText": "Abrí tu cuenta",
+      "ctaLink": "/salud/solicitud-de-servicios",
+      "formDefault": "Soluciones para Salud",
+      "secondaryCtaText": "Contactá un asesor",
+      "secondaryCtaLink": "https://wa.me/1131560000"
+    }
+  },
+  "alianza": {
+    "image": "/images/salud/alianza-2.png",
+    "imageAlt": "salud",
+    "imageDecoration": "",
+    "imageDecorationColor": "",
+    "title": "Tenemos una Alianza con medOX - Adecra+Cedim",
+    "subtitle": "Una Alianza Estratégica para el Sector Salud",
+    "text": "En Banco de Comercio, entendemos a la complejidad del ecosistema de la salud, sus necesidades y oportunidades. Por eso establecimos una alianza estratégica para la salud junto a medOX y Adecra + Cedim para que puedas acceder a financiamiento más ágil y conveniente para el sector salud."
+  },
+  "factoring": {
+    "title": "Cesión de cobros",
+    "text": "Nuestra herramienta de financiamiento a corto plazo, diseñada para ajustarse a las necesidades de tu centro de salud",
+    "list": {
+      "one": "Ampliá tu capacidad de financiamiento para mantener tu operatividad:",
+      "two": "Cedé tus derechos de cobro y minimizá tus gastos de instrumentación y accesibilidad a una línea de crédito",
+      "three": "Contá con previsibilidad de tu flujo de caja",
+      "oneList": {
+        "one": "Garantizá el pago de toda tu nómina.",
+        "two": "Resolvé tus obligaciones en tiempo y forma.",
+        "three": "Aprovechá todas las oportunidades para mejorar la experiencia de tus pacientes."
+      }
+    },
+    "ctaText": "Conocé Más",
+    "ctaLink": "/factoring"
+  },
+  "consulta": {
+    "list": {
+      "one": {
+        "text": "Consultá por todos los<br></br> beneficios del Paquete Salud",
+        "color": "color-white",
+        "backgroundColor": "color-agro-700",
+        "ctaText": "Consultar",
+        "ctaLink": "/salud/solicitud-de-servicios",
+        "image": "/images/salud/contacto.jpg",
+        "imageAlt": "Contactanos",
+        "imageDecoration": "three",
+        "imageDecorationColor": "color-green-300"
+      }
+    }
+  },
+  "necesidades": {
+    "title": "Entendemos las Necesidades Financieras del Sector Salud"
+  },
+  "tabs": {
+    "list": {
+      "financiamiento": "Financiamiento",
+      "acuerdodeCheques": "e-cheqs",
+      "bdcConecta": "BDC Conecta",
+      "remuneraciondeSaldos": "Remuneración de Saldos"
+    },
+    "content": {
+      "financiamiento": {
+        "title": "Financiamiento para todos los momentos de tu institución:",
+        "list": {
+          "one": "Línea revolving a 30 o 60 días para garantizar el pago puntual de salarios.",
+          "two": "Préstamos a 12 meses con tasa diferencial y requisitos mínimos.",
+          "three": "Proceso transparente, acompañado por un asesor especializado en el área de la salud."
+        },
+        "image": "/images/salud/tabs/financiamiento.png",
+        "imageDecoration": "",
+        "imageAlt": ""
+      },
+      "acuerdodeCheques": {
+        "title": "e-cheqs",
+        "list": {
+          "one": "Con la cesión de derecho de cobros te brindamos la posibilidad de financiarte con un acuerdo en cuenta vinculado a tus cobranzas"
+        },
+        "image": "/images/salud/tabs/acuerdodeCheques.png",
+        "imageDecoration": "",
+        "imageAlt": ""
+      },
+      "bdcConecta": {
+        "title": "BDC Conecta",
+        "list": {
+          "one": "Con nuestras APIs efectuá pagos masivos y programados a tu nómina y proveedores.",
+          "two": "Recaudá cuotas mensuales de manera ágil.",
+          "three": "Identificá con precisión la información de las cuentas de tus asociados y proveedores.",
+          "four": "Prevení fraudes con nuestras diversas fuentes de validación asociadas a una única solución"
+        },
+        "image": "/images/salud/tabs/bdcConecta.png",
+        "imageDecoration": "",
+        "imageAlt": ""
+      },
+      "remuneraciondeSaldos": {
+        "title": "Remuneración de Saldos",
+        "list": {
+          "one": "Rentabilizá tus saldos y generá eficiencia en todos tus instrumentos financieros.",
+          "two": "Optimizá tu operatoria y enfocate en lo que realmente importa: la salud de tus pacientes."
+        },
+        "image": "/images/salud/tabs/remuneraciondeSaldos.png",
+        "imageDecoration": "",
+        "imageAlt": ""
+      }
+    }
+  },
+  "propuestas": {
+    "title": "Conocé más productos para potenciar tu comercio",
+    "list": {
+      "one": {
+        "icon": "Payments",
+        "title": "Financiamiento",
+        "text": "Accedé a préstamos focalizados en las necesidades de cada etapa de tu empresa",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/financiamiento"
+      },
+      "two": {
+        "icon": "Sell",
+        "title": "COMEX",
+        "text": "Contá con el apoyo de especialistas en cada operación de COMEX",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/comex"
+      },
+      "three": {
+        "icon": "BarChart4",
+        "title": "Inversiones",
+        "text": "Maximizá tus rendimientos con nuestras diversas opciones de inversión acorde a tu perfil",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/inversiones"
+      }
+    }
+  }
+}

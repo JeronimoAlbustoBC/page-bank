@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Accedé hasta el 30% de tu inversión con mínimos requisitos",
+        "background": "/images/franquicias/hero/hero-1.png",
+        "backgroundAlt": "Franquicias",
+        "ctaText": "Abrí tu cuenta",
+        "ctaLink": "/franquicias/solicitud-de-servicios"
+      },
+      "two": {
+        "title": "Ampliá el alcance de tu marca financiando a tu red de franquiciados",
+        "background": "/images/franquicias/hero/hero-2.png",
+        "backgroundAlt": "Franquicias",
+        "ctaText": "Abrí tu cuenta",
+        "ctaLink": "/franquicias/solicitud-de-servicios"
+      }
+    }
+  },
+  "subhero": {
+    "title": "Inicia o expandí tu Franquicia",
+    "text": "En cada etapa de tu franquicia, ya sea para dar el primer paso o impulsar tu expansión, te ofrecemos apoyo financiero para potenciar el crecimiento de tu empresa."
+  },
+  "tabs": {
+    "titles": {
+      "one": "Marcas",
+      "two": "Franquiciados"
+    },
+    "content": {
+      "one": {
+        "title": "Marcas",
+        "subtitle": "Desarrollamos soluciones a medida para tu marca y para tus franquiciados. Conocemos las necesidades del sector y te facilitamos el acceso a la financiación en cada etapa de tu empresa.",
+        "list": {
+          "one": {
+            "icon": "Payments",
+            "text": "Línea de financiación según las características de <strong>TU NEGOCIO</strong>"
+          },
+          "two": {
+            "icon": "Task",
+            "text": "Convenios a medida para potenciar la solvencia de tus franquiciados existentes y nuevos"
+          },
+          "three": {
+            "icon": "CreditCard",
+            "text": "Tarjeta corporativa para gastos de representación de los socios"
+          },
+          "four": {
+            "icon": "AssuredWorkload",
+            "text": "Acuerdo de cuenta corriente para soluciones de liquidez"
+          }
+        }
+      },
+      "two": {
+        "title": "Franquiciados",
+        "subtitle": "Te ofrecemos las herramientas para asegurar el éxito de tu negocio desde el comienzo. Ofrecemos soluciones a medida para aprovechar cada oportunidad al máximo.",
+        "list": {
+          "one": {
+            "icon": "Payments",
+            "text": "Hasta 30% de la inversión para <strong>ACOMPAÑARTE DESDE EL PRIMER MOMENTO</strong>"
+          },
+          "two": {
+            "icon": "Task",
+            "text": "Mínimos requisitos para <strong>ACCEDER A NUESTROS PRÉSTAMOS</strong>. Solo contrato de alquiler y marca."
+          },
+          "three": {
+            "icon": "CreditCard",
+            "text": "Tarjeta corporativa para fortalecer el inicio de tu proyecto"
+          }
+        }
+      }
+    }
+  },
+  "calificamos": {
+    "title": "Abrí tu cuenta",
+    "text": "Te calificamos y empezá a operar. Contactate por WhatsApp al 11-3156-0000",
+    "ctaText": "Abrí tu Cuenta",
+    "ctaLink": "https://wa.me/1131560000",
+    "image": "/images/franquicias/calificamos.png",
+    "imageAlt": "Creá tu cuenta",
+    "imageDecoration": "four",
+    "imageDecorationColor": "color-green-300",
+    "backgroundColor": "color-franquicias-600"
+  },
+  "propuestas": {
+    "title": "Conoce nuestras propuestas por tipo de empresa.",
+    "list": {
+      "one": {
+        "icon": "Widgets",
+        "title": "Negocios <br></br>y Profesionales",
+        "list": {
+          "one": "Préstamo a sola firma",
+          "two": "Descuento de cheques",
+          "three": "Tarjeta Corporativa"
+        },
+
+        "ctaText": "Conocé Más",
+        "ctaLink": "/negocios-y-profesionales"
+      },
+      "two": {
+        "icon": "Storefront",
+        "title": "Soluciones <br></br>para PYMES",
+        "list": {
+          "one": "COMEX",
+          "two": "Descuento de cheques",
+          "three": "Préstamos de capital de trabajo",
+          "four": "Inversiones",
+          "five": "Leasing"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-pymes"
+      },
+      "three": {
+        "icon": "Enterprise",
+        "title": "Soluciones <br></br>para Empresas ",
+        "list": {
+          "one": "APIs",
+          "two": "Cesión de cobros",
+          "three": "Financiamiento"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas"
+      }
+    }
+  }
+}

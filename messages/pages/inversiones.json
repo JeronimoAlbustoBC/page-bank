@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Invertí en Fondos Comunes de Inversión de forma ágil y empezá a generar rendimientos",
+        "background": "/images/inversiones/hero/hero-1.png",
+        "backgroundAlt": "Inversiones"
+      },
+      "two": {
+        "title": "Contá con profesionales que realizan seguimiento diario de tus inversiones",
+        "background": "/images/inversiones/hero/hero-2.png",
+        "backgroundAlt": "Inversiones"
+      }
+    }
+  },
+  "subhero": {
+    "title": "Invertí en Fondos Comunes de Inversión y Plazos Fijos y hacé que tu dinero rinda más. ",
+    "text": "FCI: Podés operar con un horario extendido, sin inversión mínima y con recuperos inmediatos en MoneyMarket y en 24 hs en Patrimonio IV. <br></br><br></br>Plazos Fijos: Protegé tu capital y hacelo crecer de forma segura. Depositá tu dinero por un tiempo determinado y obtené una rentabilidad, sin complicaciones ni riesgos.",
+    "image": "/images/inversiones/subhero.png",
+    "imageAlt": "",
+    "imageDecoration": ""
+  },
+  "features": {
+    "title": "¿Por qué invertir en un Fondo Común de Inversión de Banco de Comercio?",
+    "list": {
+      "one": {
+        "icon": "Person",
+        "text": "Seguimiento personalizado de tu inversión desde el momento de la suscripción"
+      },
+      "two": {
+        "icon": "Checklist",
+        "text": "Diversificá tu inversion y minimiza riesgos"
+      },
+      "three": {
+        "icon": "Cycle",
+        "text": "En 24 hs podes rescatar tu inversión y disponer de tu dinero"
+      }
+    }
+  },
+  "features2": {
+    "title": "Conocé otras opciones para acceder a los mercados financieros",
+    "list": {
+      "one": {
+        "icon": "TaskAlt",
+        "title": "Títulos públicos - Obligaciones Negociables - Cauciones - Dólar MEP",
+        "text": "Invertí a través de tu cuenta comitente y gestioná tus excedentes a corto, mediano y largo plazo acompañado por asesoría especializada."
+      },
+      "two": {
+        "icon": "Payments",
+        "title": "Financiamiento Bursátil",
+        "text": "Cauciones: Financiá tus pesos y dólares en el MAV.<br></br>Pagarés y Cheques a través de MAV: Optimizá tu deuda y conseguí tasas diferenciales"
+      },
+      "three": {
+        "icon": "AssuredWorkload",
+        "title": "Financiamiento de Largo Plazo",
+        "text": "Obligaciones Negociables: Emití y estructurá tu deuda de largo plazo en el mercado. <br></br>Ejecutá la primera emisión acompañado de nuestros especialistas financieros."
+      }
+    },
+    "ctaText": "Consultá con un asesor",
+    "ctaLink": "/inversiones/solicitud-de-servicios"
+  },
+  "features3": {
+    "title": "",
+    "list": {
+    },
+    "ctaText": "Comenzá a Invertir",
+    "ctaLink": "https://inversiones.bancodecomercio.com.ar/index.php"
+  },
+  "conocenos": {
+    "title": "Conoce nuestras propuestas por tipo de empresa.",
+    "list": {
+      "one": {
+        "icon": "Widgets",
+        "title": "Negocios <br></br>y Profesionales",
+        "list": {
+          "one": "Préstamo a sola firma",
+          "two": "Descuento de cheques",
+          "three": "Tarjeta Corporativa"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/negocios-y-profesionales"
+      },
+      "two": {
+        "icon": "Storefront",
+        "title": "Soluciones <br></br>para PYMES",
+        "list": {
+          "one": "COMEX",
+          "two": "Descuento de cheques",
+          "three": "Préstamos de capital de trabajo",
+          "four": "Inversiones",
+          "five": "Leasing"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-pymes"
+      },
+      "three": {
+        "icon": "Enterprise",
+        "title": "Soluciones <br></br>para Empresas ",
+        "list": {
+          "one": "APIs",
+          "two": "Cesión de cobros",
+          "three": "Financiamiento"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas"
+      }
+    }
+  }
+}

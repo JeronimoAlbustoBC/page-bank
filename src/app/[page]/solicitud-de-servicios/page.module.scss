@@ -1,0 +1,107 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .container {
+    width: 100%;
+    position: relative;
+
+    .greenBackground {
+      background-color: var(--color-green-100);
+      position: absolute;
+      width: 100%;
+      height: 738px;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+    .content {
+      display: flex;
+      width: 100%;
+      @include maxScreenWidth;
+      padding: 120px var(--spacing-lg);
+      flex-direction: column;
+      gap: var(--spacing-xxl);
+      justify-content: space-between;
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+      }
+
+      .leftSide {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-3xxl);
+        flex: 1;
+        .title {
+          max-width: 646px;
+        }
+        .image {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          max-width: 423px;
+          min-width: 143px;
+          min-height: 308px;
+          max-height: 508px;
+          border-radius: 16px;
+          overflow: hidden;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+      .rightSide {
+        z-index: 1;
+        flex: 1;
+
+        .form {
+          background-color: var(--color-white);
+          display: flex;
+          flex-direction: column;
+          gap: 2em;
+          padding-top: var(--spacing-2xxl);
+          padding-bottom: var(--spacing-2xxl);
+          textarea {
+            resize: none;
+          }
+          .fieldContainer {
+            width: 100%;
+          }
+          .field {
+            width: 100%;
+            padding: 1em;
+            border: 2px solid var(--color-light-gray-200);
+            border-radius: 0.5em;
+            @include subtitle1;
+            font-size: 1em;
+            font-weight: normal;
+            height: 230%;
+
+            &::-ms-expand {
+              margin-right: 2em;
+            }
+          }
+          input[type="number"]::-webkit-inner-spin-button,
+          input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+          .error {
+            padding: var(--spacing-xs) var(--spacing-sm);
+          }
+          .errorField {
+            border-color: var(--color-alert-500);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Hasta $35 millones para tu negocio",
+        "subtitle": "Crecé con soluciones diseñadas para potenciar tu actividad",
+        "ctaText": "Solicitalo",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "breadcrumbColor": "color-white",
+        "background": "/images/soluciones-para-comercios/hero/hero-1.png",
+        "backgroundAlt": "Soluciones para Comercios",
+        "formDefault": "Soluciones para Comercios"
+      },
+      "two": {
+        "title": "Descontá tus e-cheqs y contá con más liquidez para tu operatoria",
+        "subtitle": "",
+        "ctaText": "Conoce más",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "breadcrumbColor": "color-white",
+        "background": "/images/soluciones-para-comercios/hero/hero-2.png",
+        "backgroundAlt": "Soluciones para Comercios",
+        "formDefault": "Soluciones para Comercios"
+      }
+    }
+  },
+  "banner": {
+    "title": "Más oportunidades para tu negocio",
+    "text": "Accedé a préstamos de hasta $35 millones y llevá tu negocio al siguiente nivel con soluciones a medida:",
+    "image": "/images/soluciones-para-comercios/banner.png",
+    "imageAlt": "",
+    "list": {
+        "one": {
+           "text": "<strong>Documentación simplificada:</strong> Con mínimos requisitos tu oficial dedicado te guiara paso a paso para acceder a los beneficios",
+           "sublist": {}
+        },
+	"two": {
+        	"text": "<strong>Propuestas personalizadas:</strong> Diseñamos una oferta ajustada a tus necesidades",
+		"sublist": {}
+        },
+	"three": {
+		"text": "<strong>Beneficios exclusivos:</strong> Comenzá a disfrutar de herramientas para impulsar tu crecimiento.",
+		"sublist": {
+			"one": "Préstamo a tu medida",
+			"two": "Acuerdo en Cuenta Corriente",
+			"three": "Descuento en cheques",
+			"four": "Tarjeta coporativa"
+		}
+	}
+    }
+  },
+  "marquee": {
+    "list": {
+      "one": { "name": "PRESTAMOS", "link": "" },
+      "two": { "name": "E-CHEQ", "link": "" },
+      "three": { "name": "TARJETA CORPORATIVA", "link": "" },
+      "four": { "name": "TERMINAL DE CAPTURA", "link": "" },
+      "five": { "name": "ADELANTO DE CUPONES", "link": "" }
+    }
+  },
+  "items": {
+    "title": "Conocé nuestros productos para potenciar tu comercio",
+    "list": {
+      "one": {
+        "title": "Préstamos",
+        "icon": "Payments",
+        "ctaText": "Solicitalo",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "formDefault": "Prestamos para Comercios",
+        "boxColor": "color-light-gray-50",
+        "list": {
+          "one": "Accedé a préstamos amortizables a 12 meses para resolver las necesidades de tu comercio con una línea ajustada a tu modelo de negocio"
+        }
+      },
+      "two": {
+        "title": "e-cheq",
+        "icon": "HeapSnapshot",
+        "ctaText": "Accedé",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "formDefault": "e-cheq",
+        "boxColor": "color-light-gray-50",
+        "list": {
+          "one": "Descontá tus e-cheqs para tener una mayor liquidez según las necesidades de tu comercio, asegurando que puedas mantener tu operación"
+        }
+      },
+      "three": {
+        "title": "Tarjeta Corporativa",
+        "icon": "CreditCard",
+        "ctaText": "Solicitala",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "formDefault": "Tarjeta Corporativa",
+        "boxColor": "color-light-gray-50",
+        "list": {
+          "one": "Operá con una tarjeta corporativa para cubrir los gastos de representación de los socios"
+        }
+      },
+      "four": {
+        "title": "Acreditación de Cupones",
+        "icon": "Sell",
+        "ctaText": "Solicitalo",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "boxColor": "color-light-gray-50",
+        "list": {
+          "one": "Anticipá tus fondos y asegurá una mayor liquidez en tu cuenta. Accedé a una financiación rápida y a tasas competitivas"
+        }
+      },
+      "five": {
+        "title": "Compra de cartera",
+        "icon": "BarChart4",
+        "ctaText": "Conocé más",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "boxColor": "color-light-gray-50",
+        "list": {
+          "one": "Cedé los derechos de cobro de tu cartera de préstamos para acceder a la liquidez que tu negocio necesita"
+        }
+      },
+      "six": {
+        "title": "Acuerdo de cuenta corriente",
+        "icon": "BareHandShake",
+        "ctaText": "Solicitalo",
+        "ctaLink": "/negocios-y-profesionales/solicitud-de-servicios",
+        "boxColor": "color-light-gray-50",
+        "list": {
+          "one": "Obtené liquidez en el corto plazo sin necesidad de recurrir a una financiación a largo plazo. Lo usas cuando lo necesitas"
+        }
+      }
+    }
+  },
+  "propuestas": {
+    "title": "Conocé más productos para potenciar tu comercio",
+    "list": {
+      "one": {
+        "icon": "Payments",
+        "title": "Financiamiento",
+        "text": "Accedé a préstamos focalizados en las necesidades de cada etapa de tu empresa",
+        "list": {},
+        "ctaText": "Conocer más",
+        "ctaLink": "/financiamiento"
+      },
+      "two": {
+        "icon": "Sell",
+        "title": "COMEX",
+        "text": "Contá con el apoyo de especialistas en cada operación de COMEX",
+        "list": {},
+        "ctaText": "Conocer más",
+        "ctaLink": "/comex"
+      },
+      "three": {
+        "icon": "BarChart4",
+        "title": "Inversiones",
+        "text": " Maximizá tus rendimientos con nuestras diversas opciones de inversión acorde a tu perfil",
+        "list": {},
+        "ctaText": "Conocer más",
+        "ctaLink": "/"
+      }
+    }
+  }
+}

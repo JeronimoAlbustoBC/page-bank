@@ -1,0 +1,83 @@
+@import "@/app/mixins.scss";
+.subhero {
+  position: relative;
+  width: 100%;
+  @include maxScreenWidth;
+  padding: 120px var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  gap: 8em;
+  flex-direction: column-reverse;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    gap: var(--spacing-xl);
+  }
+
+  .content {
+    width: 100%;
+    max-width: 750px;
+  }
+
+  .image {
+    position: relative;
+    width: 100%;
+    max-width: 524px;
+    display: grid;
+    place-items: center;
+    height: 30em;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+      margin: 0;
+      height: auto;
+    }
+
+    img {
+      border-radius: var(--border-radius-md);
+      object-fit: cover;
+      position: relative;
+    }
+
+    .imageDecoration {
+      &.one {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 6px solid var(--color-navy-blue-100);
+        border-radius: var(--border-radius-md);
+        z-index: 1;
+        top: var(--spacing-xl);
+        right: var(--spacing-lg);
+      }
+      &.two {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 6px solid #4c8da9;
+        border-radius: var(--border-radius-xl);
+        z-index: 1;
+        bottom: var(--spacing-xl);
+        left: var(--spacing-lg);
+      }
+      &.three {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 6px solid #4c8da9;
+        border-radius: var(--border-radius-xl);
+        z-index: 0;
+        top: var(--spacing-xl);
+        left: var(--spacing-xl);
+      }
+      &.four {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 6px solid var(--color-navy-blue-100);
+        border-radius: var(--border-radius-md);
+        z-index: 0;
+        top: var(--spacing-xl);
+        right: var(--spacing-lg);
+      }
+    }
+  }
+}

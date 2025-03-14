@@ -1,0 +1,27 @@
+div.container {
+  display: flex;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg) !important;
+  width: 100%;
+  background-color: var(--color-white);
+
+  .icon {
+    padding: var(--spacing-sm);
+  }
+  > div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+  }
+}
+
+.center {
+  align-items: center;
+}
+
+.left {
+  align-items: flex-start;
+}

@@ -1,0 +1,59 @@
+@import "@/app/mixins.scss";
+
+.container {
+  background-color: var(--color-navy-blue-500);
+  width: 100vw;
+
+  .content {
+    display: flex;
+    width: 100%;
+    @include maxScreenWidth;
+    padding: 84px var(--spacing-lg);
+    gap: 80px;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: var(--spacing-lg);
+      max-width: 800px;
+      .title {
+        @include typographyH1;
+        // font-size: 3.5em;
+        // line-height: 120%;
+      }
+
+      .text {
+        @include typographyH3;
+        // font-size: 3em;
+        // line-height: 120%;
+        padding-bottom: 0.5em;
+      }
+    }
+
+    .image {
+      width: 400px;
+      height: 274px;
+      position: relative;
+      @include hideOnMobile();
+      img {
+        border-radius: 16px;
+        object-fit: cover;
+        z-index: 1;
+      }
+    }
+
+    .imageDecoration {
+      position: absolute;
+      width: 100%;
+      height: 95%;
+      border: 6px solid var(--color-green-300);
+      border-radius: var(--border-radius-md);
+      z-index: 0;
+      bottom: -9%;
+      left: 9%;
+    }
+  }
+}

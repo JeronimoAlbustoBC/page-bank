@@ -1,0 +1,23 @@
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xl);
+  padding: 93px !important;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  width: 100%;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-lg);
+
+    p {
+      max-width: 420px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "@/app/mixins.scss";
+
+.h5 {
+  @include typographyH5;
+}
+
+.h4 {
+  @include typographyH4;
+}
+
+.h3 {
+  @include typographyH3;
+}
+
+.h2 {
+  @include typographyH2;
+}
+
+.h1 {
+  @include typographyH1;
+}
+.body1 {
+  @include body1;
+}
+.body2 {
+  @include body2;
+}
+.body3 {
+  @include body3;
+}
+.a,
+.caption {
+  @include caption;
+}
+.a:hover {
+  text-decoration: underline;
+}
+.subtitle1 {
+  @include subtitle1;
+}
+.subtitle2 {
+  @include subtitle2;
+}
+.subtitle3 {
+  @include subtitle3;
+}

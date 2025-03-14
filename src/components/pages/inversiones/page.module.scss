@@ -1,0 +1,162 @@
+@import "@/app/mixins.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--color-light-gray-50);
+  * {
+    cursor: default;
+  }
+  .subhero {
+    background-color: var(--color-light-gray-100);
+
+    width: 100%;
+    .section {
+      max-width: 682px;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-xxl);
+    }
+  }
+  .features {
+    width: 100%;
+    padding: 120px var(--spacing-lg);
+    @include maxScreenWidth;
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+
+    .title {
+      max-width: 757px;
+    }
+    .content {
+      display: flex;
+      gap: 2em;
+      flex-direction: column;
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+        flex: 1;
+        padding: var(--spacing-xxl) var(--spacing-sm);
+        background-color: var(--color-light-gray-100);
+        box-shadow: none;
+        .text {
+          flex: 1;
+        }
+        .icon {
+          path {
+            fill: var(--color-green-700);
+          }
+        }
+      }
+    }
+  }
+
+  .conocenos {
+    padding: 120px var(--spacing-lg);
+    width: 100%;
+    .content {
+      @include maxScreenWidth;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3em;
+      .title {
+        align-self: flex-start;
+        max-width: 540px;
+      }
+      .cards {
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        flex-direction: column;
+        @media screen and (min-width: 576px) {
+          flex-direction: row;
+        }
+        .card {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          padding-top: 2.5em;
+          padding-bottom: 2.5em;
+          .icon {
+            width: 64px;
+            height: 64px;
+            path {
+              fill: var(--color-agro-600p);
+            }
+          }
+          .list {
+            padding-left: 1.5em;
+            flex: 1;
+          }
+          .cta {
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+  .features2 {
+    width: 100%;
+    background-color: var(--color-green-100);
+
+    .content {
+      @include maxScreenWidth;
+      padding: 120px var(--spacing-lg);
+      display: flex;
+      gap: 2.5em;
+      flex-direction: column;
+      .title {
+        max-width: 600px;
+      }
+      .cta {
+        align-self: center;
+      }
+      .list {
+        display: flex;
+        gap: 2.5em;
+        flex-direction: column;
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          background-color: var(--color-white);
+
+          @media screen and (min-width: 768px) {
+            flex-direction: row;
+          }
+          gap: 2em;
+          align-items: flex-start;
+          flex: 1;
+          .cardContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1em;
+          }
+          .icon {
+            width: 75px;
+            path {
+              fill: var(--color-navy-blue-700);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.hide {
+  display: none;
+}

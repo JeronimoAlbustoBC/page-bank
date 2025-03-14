@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Accedé a préstamos a medida de tu Pyme y fortalecé tu negocio",
+        "ctaText": "Solicitalo",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "Soluciones para Pymes",
+        "background": "/images/soluciones-para-pymes/hero/hero-1.png",
+        "backgroundAlt": "Soluciones para PYMES"
+      },
+      "two": {
+        "title": "Anticipá el cobro de tus e-cheqs y operá con más agilidad y liquidez",
+        "background": "/images/soluciones-para-pymes/hero/hero-2.png",
+        "backgroundAlt": "Soluciones para PYMES",
+        "ctaText": "Conocé más",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "Soluciones para Pymes"
+      }
+    }
+  },
+  "subhero": {
+    "text": "En Banco de Comercio impulsamos el crecimiento de nuestras pymes. Somos tu aliado en cada etapa, desde tus primeros pasos hasta la expansión de tu negocio.",
+    "image": "/images/soluciones-para-pymes/subhero.png",
+    "imageAlt": "En Banco de Comercio impulsamos el crecimiento de nuestras pymes. Somos tu aliado en cada etapa, desde tus primeros pasos hasta la expansión de tu negocio.",
+    "imageDecoration": ""
+  },
+  "tabs": {
+    "list": {
+      "comex": "COMEX",
+      "descuentoDeCheques": "Descuento de cheques",
+      "prestamosCapitalTrabajo": "Financiamiento para Capital de Trabajo",
+      "inversiones": "Inversiones",
+      "leasing": "Leasing"
+    },
+    "content": {
+      "comex": {
+        "title": "COMEX",
+        "text": "Ofrecemos soluciones financieras y atención personalizada para gestionar tus importaciones y exportaciones, alineados con cada etapa de tu Pyme.",
+        "list": {},
+        "image": "/images/soluciones-para-pymes/tabs/comex.png",
+        "imageDecoration": "",
+        "imageAlt": "",
+        "ctaText": "Accedé",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "COMEX"
+      },
+      "descuentoDeCheques": {
+        "title": "Descuento de cheques",
+        "text": "Podés descontar tus e-cheqs para disponer de una mayor liquidez que se ajuste a las necesidades de tu negocio.",
+        "list": {},
+        "image": "/images/soluciones-para-pymes/tabs/descuento-de-cheques.png",
+        "imageDecoration": "",
+        "imageAlt": "",
+        "ctaText": "Accedé",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "Soluciones para Pymes"
+      },
+      "prestamosCapitalTrabajo": {
+        "title": "Financiamiento para capital de trabajo",
+        "text": "Accedé a soluciones financieras adaptadas a tus necesidades: adelanto de facturas, acuerdos en cuenta corriente, préstamos para aguinaldos hasta 6 meses, opciones amortizables hasta 12 meses, financiamiento para exportaciones e importaciones.",
+        "list": {},
+        "image": "/images/soluciones-para-pymes/tabs/prestamosCapitalTrabajo.png",
+        "imageDecoration": "",
+        "imageAlt": "",
+        "ctaText": "Accedé",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "Prestamos Pymes"
+      },
+      "inversiones": {
+        "title": "Inversiones",
+        "text": "Maximizá tus rendimientos con nuestras diversas opciones de inversión acorde a tu perfil.",
+        "list": {},
+        "image": "/images/soluciones-para-pymes/tabs/inversiones.png",
+        "imageDecoration": "",
+        "imageAlt": "",
+        "ctaText": "Accedé",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "Inversiones"
+      },
+      "leasing": {
+        "title": "Leasing",
+        "text": "Sumá vehículos más modernos y eficientes para optimizar tu operatoria. Utilizá nuestro financiamiento en una inversión estratégica para tu pyme.",
+        "list": {},
+        "image": "/images/soluciones-para-pymes/tabs/leasing.png",
+        "imageDecoration": "",
+        "imageAlt": "",
+        "ctaText": "Solicitar",
+        "ctaLink": "/soluciones-para-pymes/solicitud-de-servicios",
+        "formDefault": "Leasing"
+      }
+    }
+  },
+  "propuestas": {
+    "title": "Conocé más productos para potenciar tu pyme",
+    "list": {
+      "one": {
+        "icon": "Payments",
+        "title": "Financiamiento",
+        "text": "Accedé a préstamos focalizados en las necesidades de cada etapa de tu empresa",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/financiamiento"
+      },
+      "two": {
+        "icon": "Sell",
+        "title": "COMEX",
+        "text": "Contá con el apoyo de especialistas en cada operación de COMEX",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/comex"
+      },
+      "three": {
+        "icon": "BarChart4",
+        "title": "Inversiones",
+        "text": "Maximizá tus rendimientos con nuestras diversas opciones de inversión acorde a tu perfil",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/inversiones"
+      }
+    }
+  }
+}

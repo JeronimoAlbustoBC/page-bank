@@ -1,0 +1,263 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Impulsamos el crecimiento de tu negocio con nuestros préstamos",
+        "ctaText": "Solicitá tu préstamo",
+        "ctaLink": "/financiamiento",
+        "image": "/images/home/hero-1.png",
+        "imageAlt": "Impulsamos el crecimiento de tu negocio con nuestros préstamos",
+        "imageDecoration": "two",
+        "breadcrumbColor": "transparent",
+        "backgroundColor": "color-navy-blue-100",
+        "imageIcons": {
+          "one": {
+            "icon": "Wallet",
+            "position": {
+              "top": "-50px",
+              "left": "-50px",
+              "bottom": "unset",
+              "right": "unset",
+              "zIndex": "2"
+            }
+          },
+          "two": {
+            "icon": "DottedCircle",
+            "position": {
+              "top": "-91px",
+              "left": "-93px",
+              "bottom": "unset",
+              "right": "unset",
+              "zIndex": "0"
+            }
+          },
+          "three": {
+            "icon": "GreenCircle",
+            "position": {
+              "top": "unset",
+              "left": "unset",
+              "bottom": "-60px",
+              "right": "-30px",
+              "zIndex": "0"
+            }
+          },
+          "four": {
+            "icon": "BarChart",
+            "position": {
+              "top": "unset",
+              "left": "unset",
+              "bottom": "-40px",
+              "right": "80px",
+              "zIndex": "2"
+            }
+          }
+        }
+      },
+      "two": {
+        "title": "Revolucioná tus Cobros y Pagos con BDC Conecta",
+        "subtitle": "Ahorrá tiempo, reducí costos y maximizá los recursos de tu tesorería",
+        "ctaText": "Conoce más",
+        "ctaLink": "/bdc-conecta",
+        "image": "/images/home/hero-2.png",
+        "imageAlt": "Revolucioná tus Cobros y Pagos con BDC Conecta",
+        "imageDecoration": "one",
+        "breadcrumbColor": "transparent",
+        "backgroundColor": "color-navy-blue-100",
+        "imageIcons": {
+          "one": {
+            "icon": "ContainedArrow",
+            "position": {
+              "top": "-20px",
+              "left": "45px",
+              "bottom": "unset",
+              "right": "unset",
+              "zIndex": "2"
+            }
+          },
+          "two": {
+            "icon": "Wallet",
+            "position": {
+              "top": "225px",
+              "left": "unset",
+              "bottom": "unset",
+              "right": "-40px",
+              "zIndex": "2"
+            }
+          },
+          "three": {
+            "icon": "DottedCircle",
+            "position": {
+              "top": "178px",
+              "left": "unset",
+              "bottom": "unset",
+              "right": "-80px",
+              "zIndex": "1"
+            }
+          },
+          "four": {
+            "icon": "GreenCircle",
+            "position": {
+              "top": "unset",
+              "left": "100px",
+              "bottom": "-40px",
+              "right": "unset",
+              "zIndex": "0"
+            }
+          }
+        }
+      },
+      "three": {
+        "title": "Invertí en Fondos Comunes de Inversion de forma ágil y empeza a generar rendimientos",
+        "ctaText": "Comenzá a Invertir",
+        "ctaLink": "https://inversiones.bancodecomercio.com.ar",
+        "image": "/images/home/hero-3.png",
+        "imageAlt": "Invertí en Fondos Comunes de Inversion de forma ágil y empeza a generar rendimientos",
+        "imageDecoration": "one",
+        "breadcrumbColor": "transparent",
+        "backgroundColor": "color-navy-blue-50",
+        "imageIcons": {
+          "one": {
+            "icon": "HandShake",
+            "position": {
+              "top": "unset",
+              "left": "unset",
+              "bottom": "110px",
+              "right": "-25px",
+              "zIndex": "2"
+            }
+          },
+          "two": {
+            "icon": "DottedCircle",
+            "position": {
+              "top": "unset",
+              "left": "unset",
+              "bottom": "66px",
+              "right": "-68px",
+              "zIndex": "2"
+            }
+          },
+          "three": {
+            "icon": "TrendUpChart",
+            "position": {
+              "top": "unset",
+              "left": "67px",
+              "bottom": "-38px",
+              "right": "unset",
+              "zIndex": "2"
+            }
+          },
+          "four": {
+            "icon": "BlueCircle",
+            "position": {
+              "top": "-45px",
+              "left": "100px",
+              "bottom": "unset",
+              "right": "unset",
+              "zIndex": "0"
+            }
+          }
+        }
+      }
+    }
+  },
+  "marquee": {
+    "list": {
+      "one": { "name": "PRÉSTAMOS", "link": "" },
+      "two": { "name": "FACTORING", "link": "" },
+      "three": { "name": "API", "link": "" },
+      "four": { "name": "LEASING", "link": "" },
+      "five": { "name": "COMEX", "link": "" },
+      "seven": { "name": "DESCUENTO DE CHEQUES", "link": "" }
+    }
+  },
+  "subhero": {
+    "title": "Contamos con propuestas de valor específicas para cada tipo de negocio",
+    "subtitle": "Ofrecemos una amplia variedad de productos financieros para cada tipo de necesidad.",
+    "image": "/images/home/subhero-1.png",
+    "imageAlt": "Contamos con propuestas de valor específicas para cada tipo de negocio",
+    "imageDecoration": "two",
+    "imageDecorationColor": "color-navy-blue-400",
+    "tabs": {
+      "titles": {
+        "comercios": "Comercios",
+        "pymes": "Pymes",
+        "empresas": "Empresas"
+      },
+      "content": {
+        "comercios": {
+          "title": "Negocios y Profesionales",
+          "list": {
+            "one": "Préstamo a sola firma",
+            "two": "e-cheqs",
+            "three": "Tarjeta Corporativa",
+            "four": "Terminal de captura"
+          },
+          "ctaLink": "/negocios-y-profesionales",
+          "ctaText": "Ver Más"
+        },
+        "pymes": {
+          "title": "Soluciones para Pymes",
+          "list": {
+            "one": "COMEX",
+            "two": "Descuento de cheques",
+            "three": "Préstamos para capital de trabajo",
+            "four": "Inversiones",
+            "five": "Leasing"
+          },
+          "ctaLink": "/soluciones-para-pymes",
+          "ctaText": "Ver Más"
+        },
+        "empresas": {
+          "title": "Soluciones para Empresas",
+          "list": {
+            "one": "APIs",
+            "two": "Cesión de cobros",
+            "three": "Financiamiento",
+            "four": "Cadena de Valor",
+            "five": "Inversiones"
+          },
+          "ctaLink": "/soluciones-para-empresas",
+          "ctaText": "Ver Más"
+        }
+      }
+    }
+  },
+  "calificamos": {
+    "title": "Abrí tu cuenta",
+    "text": "Te calificamos y empezá a operar. Contactate por WhatsApp al 11-3156-0000",
+    "ctaText": "Abrí tu Cuenta",
+    "ctaLink": "https://wa.me/message/JQWPOR66J7F3E1",
+    "image": "/images/home/calificamos.png",
+    "imageAlt": "Abrí tu Cuenta",
+    "backgroundColor": "color-navy-blue-500"
+  },
+  "ofrecemos": {
+    "title": "Con nuestro modelo tailor made, ajustamos nuestra propuesta de valor diferencial acorde a tus necesidades.",
+    "list": {
+      "franquicias": {
+        "icon": "Store",
+        "color": "color-franquicias-500",
+        "title": "Franquicias",
+        "text": "Financiamiento con mínimos requisitos para marcas y franquiciados.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/franquicias"
+      },
+      "salud": {
+        "icon": "Stethoscope",
+        "color": "color-agro-500",
+        "title": "Salud",
+        "text": "Previsibilidad para la caja de tu <br></br> institución de salud a tasas exclusivas.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/salud"
+      },
+      "transporte": {
+        "icon": "LocalShipping",
+        "color": "color-transporte-500",
+        "title": "Logística",
+        "text": "Renová tu flota de rodados con <br></br> nuestro leasing.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/transporte"
+      }
+    }
+  }
+}

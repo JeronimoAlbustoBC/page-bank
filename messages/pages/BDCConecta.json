@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Automatizá los pagos y cobros de tus clientes y proveedores",
+        "subtitle": "",
+        "ctaText": "",
+        "background": "/images/bdc-conecta/hero-1.png",
+        "backgroundAlt": "Automatizá los pagos y cobros de tus clientes y proveedores"
+      },
+      "two": {
+        "title": "Optimizá la gestión en tu billetera virtual y brindá mejores experiencias a tus clientes.",
+        "subtitle": "",
+        "ctaText": "",
+        "background": "/images/bdc-conecta/hero-2.png",
+        "backgroundAlt": "Optimizá la gestión en tu billetera virtual y brindá mejores experiencias a tus clientes."
+      },
+      "three": {
+        "title": "Consultá todos los datos de tus clientes y proveedores de forma automática.",
+        "subtitle": "",
+        "ctaText": "",
+        "background": "/images/bdc-conecta/hero-3.png",
+        "backgroundAlt": "Consultá todos los datos de tus clientes y proveedores de forma automática."
+      }
+    }
+  },
+  "tabs": {
+    "titles": {
+      "one": "Cobranzas y Pagos",
+      "two": "Billetera Virtual",
+      "three": "Información de la cuenta"
+    },
+    "content": {
+      "one": {
+        "title": "Cobranzas y Pagos",
+        "subtitle": "Simplificá la gestión de las cuentas de tus clientes y proveedores",
+        "icon": "CobranzasYPagos",
+        "list": {
+          "one": "Realizá transferencias a CBU, CVU y Alias de manera rápida y segura.",
+          "two": "Administrá tus proveedores de forma eficiente y sin complicaciones."
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "https://bdcconecta.com/"
+      },
+      "two": {
+        "title": "Billetera Virtual",
+        "subtitle": "Ofrecé diversas funcionalidades para optimizar la gestión de tu billetera y mejorar la experiencia de tus clientes:  ",
+        "icon": "BilleteraVirtual",
+        "list": {
+          "one": "Envía y recibí transferencias entre CBU y CVU.",
+          "two": "Financiá directamente a tus clientes."
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "https://bdcconecta.com/"
+      },
+      "three": {
+        "title": "Información de la cuenta",
+        "subtitle": "Simplificá la gestión de las cuentas de tus clientes:",
+        "icon": "InfoDeCuenta",
+        "list": {
+          "one": "Consultá fácilmente los movimientos de cuentas.",
+          "two": "Validá la información asociada a cada cuenta de forma precisa con nuestras diversas fuentes de información integradas."
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "https://bdcconecta.com/"
+      }
+    }
+  },
+  "greenBox": {
+    "title": "¿Qué hace único a nuestro universo de APIs?",
+    "ctaText": "Comenzá Ya",
+    "ctaLink": "https://bdcconecta.com/",
+    "cards": {
+      "one": {
+        "icon": "Person",
+        "text": "Contás con un Project Manager que te asesora en todas las etapas del proceso"
+      },
+      "two": {
+        "icon": "NetworkNode",
+        "text": "Integrá sin dificultad con una experiencia fluida de validaciones rápidas e intuitivas en una sola solución"
+      },
+      "three": {
+        "icon": "Workspaces",
+        "text": "Pricing simple y diferenciado por tipo de empresa"
+      },
+      "four": {
+        "icon": "Computer",
+        "text": "Accedé a la documentación para simular un ambiente de prueba nuestras soluciones"
+      }
+    }
+  },
+  "cards": {
+    "title": "Conoce nuestras propuestas por tipo de empresa.",
+    "list": {
+      "one": {
+        "icon": "Widgets",
+        "title": "Soluciones <br></br>para Comercios",
+        "list": {
+          "one": "Préstamo a sola firma",
+          "two": "Descuento de cheques",
+          "three": "Tarjeta Corporativa"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/negocios-y-profesionales"
+      },
+      "two": {
+        "icon": "Storefront",
+        "title": "Soluciones <br></br>para PYMES",
+        "list": {
+          "one": "COMEX",
+          "two": "Descuento de cheques",
+          "three": "Préstamos de capital de trabajo",
+          "four": "Inversiones",
+          "five": "Leasing"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-pymes"
+      },
+      "three": {
+        "icon": "Enterprise",
+        "title": "Soluciones <br></br>para Empresas ",
+        "list": {
+          "one": "APIs",
+          "two": "Cesión de cobros",
+          "three": "Financiamiento"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas"
+      }
+    }
+  }
+}

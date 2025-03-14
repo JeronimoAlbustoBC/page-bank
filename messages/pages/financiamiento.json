@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Financiamos tu negocio con préstamos a medida de tu propuesta de valor",
+        "background": "/images/financiamiento/hero/hero-1.png",
+        "backgroundAlt": "financiamiento",
+        "breadcrumbColor": "color-white"
+      },
+      "two": {
+        "title": "Accedé a financiamiento para tu capital de trabajo",
+        "background": "/images/financiamiento/hero/hero-2.png",
+        "backgroundAlt": "financiamiento",
+        "breadcrumbColor": "color-white"
+      }
+    }
+  },
+  "prestamos": {
+    "title": "Préstamos orientados en las necesidades de tu empresa",
+    "text": "Entendemos que cada empresa es única, por eso ofrecemos préstamos adaptados a tus necesidades. Contás con el apoyo de nuestros oficiales expertos, quienes te brindan un asesoramiento cercano y especializado en todo momento.",
+    "list": {
+      "one": {
+        "title": "Obtené financiamiento a medida de tu modelo de negocio.",
+        "list": {
+          "one": "Acordamos un plazo en función de tus necesidades",
+          "two": "Te calificamos en 72hs para darte la línea más adecuada para el momento de tu negocio"
+        }
+      },
+      "two": {
+        "title": "Préstamos para Capital de Trabajo",
+        "list": {
+          "one": "Garantizá el pago a proveedores y creá acuerdos más convenientes para tu actividad",
+          "two": "Optimizá tu flujo de caja y operá con tranquilidad",
+          "three": "Asegurá el pago de sueldos de toda tu nómina y mejorá tu rentabilidad"
+        }
+      }
+    }
+  },
+  "calificamos": {
+    "title": "Abrí tu cuenta",
+    "text": "Te calificamos y empezá a operar. Contactate por WhatsApp al 11-3156-0000",
+    "ctaText": "Abrí tu Cuenta",
+    "image": "/images/financiamiento/calificamos.png",
+    "imageAlt": "Te calificamos y empezá a operar.",
+    "imageDecoration": "three",
+    "imageDecorationColor": "color-green-300",
+    "ctaLink": "https://wa.me/1131560000",
+    "backgroundColor": "color-green-800"
+  },
+  "soluciones": {
+    "title": "Aprovechá cada oportunidad con financiamiento rápido y personalizado",
+    "marquee": {
+      "list": {
+        "one": { "name": "FLEXIBLE", "link": "" },
+        "two": { "name": "TRANSPARENTE", "link": "" },
+        "three": { "name": "PERSONALIZADO", "link": "" },
+        "four": { "name": "ACCESIBLE", "link": "" },
+        "five": { "name": "AGIL", "link": "" }
+      }
+    },
+    "text": "Soluciones financieras diseñadas para que puedas manejar tus operaciones diarias con facilidad y de forma inmediata",
+    "cards": {
+      "one": {
+        "title": "Cesión de cobros",
+        "text": "Adelantá el cobro de tus ventas pendientes y obtené una mayor liquidez  para resolver tus necesidades del día a día.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/factoring",
+        "icon": "Payments"
+      },
+      "two": {
+        "title": "Descuento de Cheques",
+        "text": "Fortalecé tu flujo de caja con nuestra línea de descuentos de e-cheqs, diseñada para hacer tu operatoria más eficiente.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/financiamiento",
+        "icon": "Cycle"
+      },
+      "three": {
+        "title": "Acuerdo Cuenta Corriente",
+        "text": "Cubrí tus necesidades diarias operando en descubierto y solicítalo en cualquier momento para mayor comodidad.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/financiamiento",
+        "icon": "Checklist"
+      },
+      "four": {
+        "title": "Obligaciones Negociables",
+        "text": "Financiá tus proyectos de crecimiento a mediano y largo plazo, aprovechando las oportunidades del mercado de capitales.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/financiamiento",
+        "icon": "Task"
+      }
+    }
+  },
+  "financiacion": {
+    "title": "Te Acompañamos con Financiación para los Grandes Proyectos de tu Negocio",
+    "marquee": {
+      "list": {
+        "one": { "name": "SEGURO", "link": "" },
+        "two": { "name": "PERSONALIZADO", "link": "" },
+        "three": { "name": "ACCESIBLE", "link": "" },
+        "four": { "name": "A LARGO PLAZO", "link": "" }
+      }
+    },
+    "list": {
+      "one": {
+        "title": "Leasing",
+        "text": "Renová tus utilitarios con 100% de financiación y hasta en 36 meses.",
+        "ctaText": "Acceder",
+        "ctaLink": "/financiamiento/solicitud-de-servicios",
+        "icon": "Hub"
+      },
+      "two": {
+        "title": "Préstamos garantías con SGR",
+        "text": "Financiá tus proyectos con amortizaciones acorde a tu ciclo productivo y accedé a más de un préstamo a la vez.",
+        "ctaText": "Solicitar",
+        "ctaLink": "/financiamiento/solicitud-de-servicios",
+        "icon": "Task"
+      }
+    }
+  },
+  "propuesta": {
+    "title": "Conocé Nuestras Propuestas Específicas para:",
+    "marquee": {
+      "list": {
+        "one": { "name": "SEGURO", "link": "" },
+        "two": { "name": "PERSONALIZADO", "link": "" },
+        "three": { "name": "ACCESIBLE", "link": "" },
+        "four": { "name": "A LARGO PLAZO", "link": "" }
+      }
+    },
+    "list": {
+      "one": {
+        "title": "Salud",
+        "text": "Descubrí nuestras soluciones diseñadas para el sector salud.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/salud"
+      },
+      "two": {
+        "title": "Franquicias",
+        "text": "Explorá nuestras opciones de financiamiento para franquicias.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/franquicias"
+      },
+      "three": {
+        "title": "Logística",
+        "text": "Optimizá tu flota con nuestras propuestas para tu logística.",
+        "ctaText": "Conocer Más",
+        "ctaLink": "/transporte"
+      }
+    }
+  }
+}

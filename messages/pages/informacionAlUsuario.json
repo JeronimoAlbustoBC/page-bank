@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Información al Usuario Financiero",
+        "background": "/images/informacion-al-usuario/hero/hero-1.png",
+        "backgroundAlt": "Información al Usuario Financiero"
+      }
+    }
+  },
+  "subhero": {
+    "title": "Cargos, Comisiones y Tasas según Com A-5388 y Com A-5460 del B.C.R.A.",
+    "text": "Hacé click y descargá los siguientes PDFs",
+    "list": {
+      "one": {
+        "text": "Grilla Cargos y Comisiones",
+        "link": "/archivos/informacion-al-usuario/Grilla-Cargos-y-Comisiones.pdf"
+      },
+      "two": {
+        "text": "Tasas Activas y Pasivas",
+        "link": "/archivos/informacion-al-usuario/F-8-Rev.-142-Grilla-de-Tasas-Activas-y-Pasivas.pdf"
+      },
+      "three": {
+        "text": "T.O. Depósito e Inversiones a plazo",
+        "link": "/archivos/informacion-al-usuario/Depositos-e-inversiones-a-plazo.pdf"
+      },
+      "four": {
+        "text": "Comparación de comisiones",
+        "link": "https://www.bcra.gob.ar/BCRAyVos/Comparacion_de_Comisiones.asp"
+      },
+      "five": {
+        "text": "Cartelera - Billetes familia de animales autóctonos de la R.A",
+        "link": "https://drive.google.com/file/d/1otEaLomcQdkYQala4Iip3uVchR5efE-Q/view"
+      },
+      "six": {
+        "text": "Billete conmemorativo de $2000",
+        "link": "/archivos/informacion-al-usuario/Billete-conmemorativo-de-2000-pesos.pdf"
+      },
+      "seven": {
+        "text": "Billete de $10 000 de la familia “Heroínas y Héroes de la Patria”",
+        "link": "/archivos/informacion-al-usuario/Billete-de-10000-pesos-de-la-familia-Heroinas-y-Heroe-de-la-Patria.pdf"
+      },
+      "eight": {
+        "text": "Cartelera - Recomendaciones del BCRA",
+        "link": "https://drive.google.com/file/d/1XxXG8Y-kcpkr3gxLYEAp_04Ys5rTY7rR/view"
+      },
+      "nine": {
+        "text": "Cuenta Gratuita Universal",
+        "link": "https://drive.google.com/file/d/1C5S87xb7HJapDnTO0DtJe5a1Ue4VJblW/view"
+      },
+      "ten": {
+        "text": "Cartelera - Información Jubilados - Estafas teléfonicas",
+        "link": "https://drive.google.com/file/d/1Oka0PFD-fgFVzmcMnSrPGQMXg1T1fdBA/view"
+      },
+      "eleven": {
+        "text": "Servicios Contratados",
+        "link": "https://serviciosonline.bancodecomercio.com.ar/serviciosonline/login.php"
+      },
+      "twelve": {
+        "text": "Código de Conducta CNV",
+        "link": "/archivos/informacion-al-usuario/M-GPO-1-6-Codigo-de-Conducta-CNV.doc"
+      },
+      "thirteen": {
+        "text": "Monto Global",
+        "link": "/archivos/informacion-al-usuario/Monto Global.pdf"
+      },
+      "fourteen": {
+        "text": "Billete de $20.000",
+        "link": "/archivos/informacion-al-usuario/Afiche-A5-Billete-20000-pesos.pdf"
+      },
+      "fiveteen": {
+        "text": "Ley N° 21.526 (Ley de Entidades Financieras): Texto actualizado | Argentina.gob.ar",
+        "link": "https://www.argentina.gob.ar/normativa/nacional/ley-21526-16071/actualizacion"
+      },
+      "sixteen": {
+        "text": "Ley N° 24.485 (Sistema de Seguro de Garantía de los Depósitos Bancarios): Ley 24485/1995 | Argentina.gob.ar",
+        "link": "https://www.argentina.gob.ar/normativa/nacional/ley-24485-1995-16877"
+      },
+      "seventeen": {
+        "text": "Ley N° 25.326 (HABEAS DATA): Ley 25326/2000 | Argentina.gob.ar",
+        "link": "https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790"
+      },
+      "eigthteen": {
+        "text": "M-GPO-42-9-Código de Conducta y Ética Comercial (9)",
+        "link": "/archivos/informacion-al-usuario/M-GPO-42-9-Código de Conducta y Ética Comercial (9).docx"
+      },
+      "nineteen": {
+        "text": "Disciplina de Mercado.",
+        "link": "/archivos/informacion-al-usuario/Disciplina de mercado_30092024.pdf"
+      },
+      "twenty": {
+ 	"text": "Código de Gobierno Societario",
+	"link": "archivos/informacion-al-usuario/M-GPO-38-29-Codigo-de-Gobierno-Societario.doc"
+      }
+    }
+  },
+  "sectionOne": {
+    "leftTitle": "Responsables de Atención al Usuario Financiero",
+    "title": "Responsables de reclamos en casa central:",
+    "list": "<ul><li>Sr. Ruben José Lauriente - <mail>ruben.lauriente@bancodecomercio.com.ar</mail></li><li>Sr. Sebastian Arnesen - <mail>gerardo.arnesen@bancodecomercio.com.ar</mail></li></ul>",
+    "text": "Teléfono de contacto: (011) 5554 5800 Fax: (011) 5554-5890 de lunes a viernes de 10 a 17 hs.Email: <mail>info@bancodecomercio.com.ar</mail><strong>Los reclamos de los usuarios deberán resolverse en un plazo máximo de 10 días hábiles. Ante la falta de respuesta o disconformidad con la misma podrán efectuar una denuncia ante en B.C.R.A.</strong>Si deseas contactarnos via web, ingresa en el motivo de tu consulta:<ul><li><consultas>Consultas</consultas></li><li><baja>Baja de servicio</baja></li></ul>El Banco Central de la República Argentina dispone de un área de Protección al Usuario de Servicios Financieros la cual podrá contactar ingresando a http://www.bcra.gob.ar/BCRAyVos/reportes.asp. que podrá ser utilizado para cualquier denuncia por falta de respuesta o disconformidad con la resolución brindada."
+  },
+  "sectionTwo": {
+    "leftTitle": "Garantías de Depósito",
+    "text": "“Los depósitos en pesos y en moneda extranjera cuentan con la garantía de hasta $25.000.000. En las operaciones a nombre de dos o más personas, la garantía se prorrateará entre sus titulares. En ningún caso, el total de la garantía por persona y por depósito podrá exceder de $25.000.000, cualquiera sea el número de cuentas y/o depósitos. Ley 24.485, Decreto Nº 540/95 y modificatorios y Com. “A” 2337 y sus modificatorias y complementarias. Se encuentran excluidos los captados a tasas superiores a la de referencia conforme a los límites establecidos por el Banco Central, los adquiridos por endoso y los efectuados por personas vinculadas a la entidad financiera.”"
+  }
+}

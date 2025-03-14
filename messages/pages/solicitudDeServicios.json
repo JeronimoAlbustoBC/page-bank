@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "background": "/images/solicitud-de-servicios/hero.png",
+    "title": "Solicitá los servicios que necesités"
+  },
+  "side": {
+    "text": "Dejanos tus datos y un asesor de va a estar contactando a la brevedad.",
+    "image": "/images/solicitud-de-servicios/side.png",
+    "imageAlt": "Formulario de contacto"
+  },
+  "form": {
+    "title": "Ingresa los siguientes datos",
+    "fields": {
+      "nombre": { "label": "Nombre y Apellido *" },
+      "id": { "label": "CUIT de Empresa (sin guiones) *" },
+      "razonSocial": { "label": "Razón Social" },
+      "importacionBienes": {
+        "label": "Importación de Bienes",
+        "type": "dropdown",
+        "dropdownOptions": {
+          "Prestamos Pymes": "Préstamos Pymes",
+          "Prestamos para Comercios": "Préstamos para Comercios",
+          "Prestamos para Empresas": "Préstamos para Empresas",
+          "Soluciones para Pymes": "Propuestas para Pymes",
+          "Soluciones para Comercios": "Propuestas para Comercios",
+          "Soluciones para Empresas": "Propuestas para Empresas",
+          "Abrir cuenta": "Abrir cuenta",
+          "Soluciones para Franquicias": "Propuestas para Franquicias",
+          "Soluciones para Salud": "Propuestas para Salud",
+          "Soluciones para Transporte": "Propuestas para Transporte",
+          "Soluciones para Individuos": "Propuestas para Individuos",
+          "e-cheq": "e-cheq",
+          "Tarjeta Corporativa": "Tarjeta Corporativa",
+          "Terminal de Captura": "Terminal de Captura",
+          "COMEX": "Comex",
+          "Importacion": "Importación ",
+          "Exportacion": "Exportación",
+          "Financiamiento de Importaciones": "Financiamiento de Importaciones",
+          "Financiamiento de Exportaciones": "Financiamiento de Exportaciones",
+          "Factoring": "Cesión de cobros",
+          "Acuerdo de Cuenta Corriente": "Acuerdo de Cuenta Corriente",
+          "Leasing": "Leasing",
+          "Prestamos garantias con SGR": "Préstamos garantías con SGR",
+          "Inversiones": "Inversiones",
+          "Cobranzas y pagos": "Cobranzas y pagos",
+          "Billetera Virtual": "Billetera Virtual",
+          "Informacion de la cuenta": "Información de la cuenta",
+          "BDC Conecta-APIs": "BDC Conecta - APIs"
+        }
+      },
+      "email": { "label": "Correo electrónico *", "type": "email" },
+      "telefono": {
+        "label": "Número de teléfono *",
+        "error": "Teléfono inválido.",
+        "type": "number"
+      },
+      "mensaje": { "label": "Mensaje", "type": "textarea" }
+    },
+    "ctaText": "Enviar",
+    "submitting": "Enviando",
+    "error": "Por favor revisa este campo"
+  }
+}

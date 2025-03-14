@@ -1,0 +1,26 @@
+.container {
+  border-radius: var(--border-radius-xxl);
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-family: var(--typography-default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+
+  text-align: center;
+  transition: opacity 150ms ease-in-out;
+  cursor: pointer;
+  border: 2px solid var(--color-light-gray-700);
+  background-color: var(--color-light-gray-100);
+  color: var(--color-light-gray-700);
+
+  &.active {
+    background-color: var(--color-green-100);
+    color: var(--color-green-400);
+    border-color: var(--color-green-400);
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

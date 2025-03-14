@@ -1,0 +1,109 @@
+{
+  "section1": {
+    "title": "Individuos",
+    "titleLink": "/individuos",
+    "subtitle1": "Soluciones por tipo de empresa",
+    "list1": {
+      "comercios": {
+        "label": "Negocios y Profesionales",
+        "link": "/negocios-y-profesionales"
+      },
+      "pymes": {
+        "label": "PYMES",
+        "link": "/soluciones-para-pymes"
+      },
+      "empresas": { "label": "Empresas", "link": "/soluciones-para-empresas" }
+    },
+    "subtitle2": "Soluciones por sector",
+    "list2": {
+      "salud": { "label": "Salud", "link": "/salud" },
+      "franquicias": {
+        "label": "Franquicias",
+        "link": "/franquicias"
+      },
+      "transporte": { "label": "Logística", "link": "/transporte" }
+    }
+  },
+  "section2": {
+    "title": "Servicios",
+    "list": {
+      "financiamiento": {
+        "label": "Financiamiento",
+        "link": "/financiamiento"
+      },
+      "inversiones": {
+        "label": "Inversiones",
+        "link": "/inversiones"
+      },
+      "comex": { "label": "COMEX", "link": "/comex" },
+      "leasing": {
+        "label": "Leasing",
+        "link": "/leasing"
+      },
+      "factoring": {
+        "label": "Cesión de cobros",
+        "link": "/factoring"
+      },
+      "bdc-conecta": {
+        "label": "BDC Conecta",
+        "link": "/bdc-conecta"
+      }
+    }
+  },
+  "section3": {
+    "title1": "Operaciones Bancarias",
+    "list1": {
+      "pagos": {
+        "label": "Pagos, impuestos y servicios",
+        "link": "https://drive.google.com/file/d/1j9e4Boy07MfokziGZNxWjYWpDGAz0-DD/view"
+      },
+      "echeq": {
+        "label": "e-cheq",
+        "link": "https://drive.google.com/open?id=1Cnsx6EfJPHTGmtTrypP5TXP2b1pMpyeI"
+      },
+      "contrato": {
+        "label": "Servicios Contratados",
+        "link": "https://serviciosonline.bancodecomercio.com.ar/serviciosonline/login.php"
+      },
+      "home-banking": {
+        "label": "Nuevo Home Banking",
+        "link": "/nuevo-home-banking"
+      }
+    },
+    "title2": "Servicios y Protección",
+    "list2": {
+      "pagos": { "label": "Institucional", "link": "/institucional" },
+      "echeq": {
+        "label": "Información al usuario de servicio financiero",
+        "link": "/informacion-al-usuario"
+      },
+      "contrato": {
+        "label": "Contrato de adhesión Ley 24.240",
+        "link": "/contrato-de-adhesion"
+      },
+      "defensa-al-consumidor": {
+        "label": "Defensa de las y los consumidores",
+        "link": "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/ventanilla-unica-federal-de-reclamos-de-defensa-del-consumidor"
+      },
+      "operar-seguro": {
+        "label": "Cómo operar seguro",
+        "link": "archivos/footer/como-operar-seguro-banco-de-comercio.pdf"
+      },
+      "arrepentimiento": {
+        "label": "Botón de arrepentimiento",
+        "link": "/boton-de-arrepentimiento"
+      }
+    }
+  },
+  "right-text": "Agente ALyC y AN-Integral registrado bajo el número 23 de la CNV, y Agente de Colocación y Distribución Integral de Fondos Comunes de Inversión (ACDI) bajo el número 96",
+  "banco-central": {
+    "image": "/images/footer/banco-central.png",
+    "title": "USUARIOS FINANCIEROS",
+    "text": "Visitá nuestra web",
+    "link": "www.usuariosfinancieros.gob.ar"
+  },
+  "mas-info": {
+    "dir1": "Banco de Comercio 2024 - Todos los derechos reservados ",
+    "dir2": "Sarmiento 356, CP 1041, Ciudad Autonoma de Buenos Aires, Argentina"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "Creamos soluciones para los transportistas y las necesidades del rubro 100% financiada de leasing rodados",
+    "background": "/images/transporte/hero.png",
+    "backgroundAlt": "Transporte"
+  },
+  "renovar": {
+    "title": "Renová tu flota rápido y actualizá tu empresa",
+    "image": "/images/transporte/renovar.png",
+    "imageAlt": "Renovar",
+    "imageDecoration": "",
+    "ctaText": "Conocé Más",
+    "ctaLink": "/",
+    "list": {
+      "one": "No necesitás hacer una inversión inicial elevada",
+      "two": "36 meses de plazo para facilitar tu planificación financiera",
+      "three": "Deducí gastos y reducí la carga impositiva",
+      "four": "Contá con opción de compra"
+    }
+  },
+  "descuento": {
+    "title": "Descuento de cheques",
+    "image": "/images/transporte/descuento.png",
+    "imageAlt": "Descuento",
+    "imageDecoration": "",
+    "ctaText": "Solicitá Ahora",
+    "ctaLink": "/",
+    "list": {
+      "one": "Fortalecé tu flujo de caja con nuestra línea de operación de cheques y e-cheq, diseñada para hacer tu operatoria más eficiente.",
+      "two": "Cancelá tus obligaciones y focalizate en el desarrollo del negocio",
+      "three": "Aumentá tus posibilidades de crédito para seguir proyectando"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Boton de Arrepentimiento",
+        "background": "/images/informacion-al-usuario/hero/hero-1.png",
+        "backgroundAlt": "Boton de Arrepentimiento"
+      }
+    }
+  },
+  "subhero": {
+    "title": "Boton de Arrepentimiento",
+    "text": "Los productos o servicios adquiridos en los últimos 10 días podrán cancelarse sin costo. Por consultas, podrá comunicarse a través de nuestro WhatsApp 15550863983 o acercarse a cualquiera de nuestras Sucursales o Centros de Negocios, si cuenta con clave de Home Banking, gestionar la cancelación a través de dicha plataforma."
+  }
+}

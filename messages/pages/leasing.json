@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "Financiá tus activos productivos, desde rodados hasta maquinarias y otros bienes de capital",
+    "background": "/images/leasing/hero.png",
+    "backgroundAlt": "leasing"
+  },
+  "factoring": {
+    "title": "Acompañamos tu inversión",
+    "text": "Convertí el financiamiento en una inversión clave para impulsar tu negocio. Sumá activos productivos más modernos y eficientes para optimizar tu negocio.",
+    "list": {
+      "one": "La renovación de tus bienes de capital hasta 100% financiada para que aproveches todas las oportunidades de negocio",
+      "two": "36 meses de plazo para facilitar tu planificación financiera.",
+      "three": "Deducí gastos y reducí la carga impositiva para tu empresa."
+    }
+  },
+  "cards": {
+    "one": {
+      "icon": "BarChart2",
+      "title": "",
+      "text": "No necesitás hacer una inversión inicial elevada."
+    },
+    "two": {
+      "icon": "Snapshot",
+      "title": "",
+      "text": "Opciones adaptadas a tus necesidades según el riesgo y el porcentaje de la inversión."
+    },
+    "three": {
+      "icon": "Checklist",
+      "title": "",
+      "text": "Elegí entre tasa fija o variable asegurando estabilidad o flexibilidad en los pagos."
+    },
+    "four": {
+      "icon": "BuyCar",
+      "title": "",
+      "text": "Contá con opción de compra de tus utilitarios."
+    }
+  },
+  "calificamos": {
+    "title": "¿Cómo podés acceder al Leasing con Banco de Comercio?",
+    "text": "",
+    "ctaText": "Consultar",
+    "ctaLink": "https://wa.me/1131560000",
+    "image": "/images/leasing/calificamos.png",
+    "imageAlt": "¿Cómo podés acceder al Leasing con Banco de Comercio?",
+    "imageDecoration": "four",
+    "imageDecorationColor": "color-green-400",
+    "backgroundColor": "color-navy-blue-800"
+  },
+  "propuestas": {
+    "title": "Conoce nuestras propuestas por tipo de empresa.",
+    "list": {
+      "one": {
+        "icon": "Widgets",
+        "title": "Negocios <br></br>y Profesionales",
+        "list": {
+          "one": "Préstamo a sola firma",
+          "two": "Descuento de cheques",
+          "three": "Tarjeta Corporativa"
+        },
+
+        "ctaText": "Conocé Más",
+        "ctaLink": "/negocios-y-profesionales"
+      },
+      "two": {
+        "icon": "Storefront",
+        "title": "Soluciones <br></br>para PYMES",
+        "list": {
+          "one": "COMEX",
+          "two": "Descuento de cheques",
+          "three": "Préstamos de capital de trabajo",
+          "four": "Inversiones",
+          "five": "Leasing"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-pymes"
+      },
+      "three": {
+        "icon": "Enterprise",
+        "title": "Soluciones <br></br>para Empresas ",
+        "list": {
+          "one": "APIs",
+          "two": "Cesión de cobros",
+          "three": "Financiamiento"
+        },
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas"
+      }
+    }
+  }
+}

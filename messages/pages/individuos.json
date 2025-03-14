@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Te acercamos soluciones que te simplifican la vida y te ayudan a crecer",
+        "ctaText": "Solicitá tu cuenta",
+        "ctaLink": "/individuos/solicitud-de-servicios",
+        "breadcrumbColor": "transparent",
+        "image": "/images/individuos/hero/hero-1.png",
+        "imageAlt": "Individuos",
+        "imageDecoration": "two",
+        "imageDecorationColor": "color-agro-600p",
+        "backgroundColor": "color-transporte-100"
+      }
+    }
+  },
+  "features": {
+    "one": {
+      "icon": "RepairKit",
+      "text": "Mínimos requisitos para abrir tu cuenta"
+    },
+    "two": {
+      "icon": "ExportNodes",
+      "text": "Homebanking para operar desde donde estés"
+    },
+    "three": {
+      "icon": "Devices",
+      "text": "Tarjeta de crédito para financiar tus consumos"
+    },
+    "four": {
+      "icon": "AddCard",
+      "text": "Distintas alternativas  para invertir tu dinero"
+    }
+  },
+  "calificamos": {
+    "title": "",
+    "text": "Accedé a toda tu información de cuenta, movimientos y realizá todas tus operaciones desde tu HomeBanking. ",
+    "ctaText": "Homebanking",
+    "ctaLink": "https://hb.bancodecomercio.com.ar/login",
+    "image": "/images/home/calificamos.png",
+    "imageAlt": "Te calificamos en 72 hs.",
+    "backgroundColor": "color-transporte-700",
+    "buttonVariant": "secondary"
+  },
+
+  "conocenos": {
+    "list": {
+      "one": {
+        "icon": "CreditCard",
+        "title": "Tarjetas de Crédito",
+        "ctaText": "Solicitar",
+        "ctaLink": "/individuos/solicitud-de-servicios"
+      },
+      "two": {
+        "icon": "AssuredWorkload",
+        "title": "Inversiones",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/individuos/solicitud-de-servicios"
+      }
+    }
+  },
+  "ofrecemos": {
+    "title": "Con nuestro modelo tailor made, ajustamos nuestra propuesta de valor diferencial acorde a tus necesidades.",
+    "list": {
+      "franquicias": {
+        "icon": "Store",
+        "color": "color-franquicias-500",
+        "title": "Franquicias",
+        "text": "Financiamiento con mínimos requisitos para marcas y franquiciados.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/franquicias"
+      },
+      "salud": {
+        "icon": "Stethoscope",
+        "color": "color-agro-500",
+        "title": "Salud",
+        "text": "Previsibilidad para la caja de tu <br></br> institución de salud a tasas exclusivas.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/salud"
+      },
+      "transporte": {
+        "icon": "LocalShipping",
+        "color": "color-transporte-500",
+        "title": "Logística",
+        "text": "Renová tu flota de rodados con <br></br> nuestro leasing.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/transporte"
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+@import "@/app/mixins.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+  :global(.slider-content) {
+    padding-bottom: 60px !important;
+  }
+  .subhero {
+    background-color: var(--color-navy-blue-100);
+    width: 100%;
+    .section {
+      max-width: 644px;
+    }
+  }
+  .tabs {
+    width: 100%;
+    @include maxScreenWidth();
+    padding: 60px var(--spacing-lg);
+
+    .tabsContainer {
+      display: flex;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+      .tabLabel {
+        color: var(--color-light-gray-600);
+        transition: color 300ms ease;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        border: 0;
+        border-bottom: 3px solid transparent;
+        &.active {
+          color: var(--color-navy-blue-800);
+          border-bottom: 3px solid var(--color-agro-500);
+          border-radius: 0;
+        }
+      }
+    }
+    .tabsContent {
+      width: 100%;
+      > div {
+        gap: var(--spacing-lg);
+        padding-top: var(--spacing-lg);
+        @media screen and (min-width: 972px) {
+          padding-top: 80px;
+          gap: var(--spacing-lg);
+        }
+      }
+      .section {
+        @media screen and (min-width: 972px) {
+          max-width: 33.4em;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-lg);
+
+        .list {
+          display: flex;
+          flex-direction: column;
+          gap: var(--spacing-md);
+          padding-left: var(--spacing-lg);
+        }
+        .cta {
+          align-self: flex-start;
+        }
+      }
+      :global(.image) {
+        height: 374px;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .propuestas {
+    padding: 60px var(--spacing-lg);
+    width: 100%;
+    background-color: var(--color-light-gray-50);
+    .content {
+      @include maxScreenWidth;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3em;
+      .title {
+        align-self: flex-start;
+        max-width: 540px;
+      }
+      .cards {
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        flex-direction: column;
+        @media screen and (min-width: 576px) {
+          flex-direction: row;
+        }
+        .card {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          padding-top: 2.5em;
+          background-color: var(--color-white);
+          .icon {
+            width: 64px;
+            height: 64px;
+            path {
+              fill: var(--color-franquicias-500);
+            }
+          }
+          .list {
+            padding-left: 1.5em;
+            flex: 1;
+          }
+          .cta {
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+}

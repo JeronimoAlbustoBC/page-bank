@@ -1,0 +1,26 @@
+{
+  "one": {
+    "title": "Casa central",
+    "address": "Dirección:  Sarmiento 356",
+    "phone": "Teléfono: 5554-5800",
+    "time": "Horario de Atención:  Lunes a Viernes, de 10:00 hs a 15:00hs"
+  },
+  "two": {
+    "title": "Sucursal Once",
+    "address": "Dirección: Avenida Corrientes 2587",
+    "phone": "Teléfono: 4951-5757",
+    "time": "Horario de Atención:  Lunes a Viernes, de 10:00 hs a 15:00hs"
+  },
+  "three": {
+    "title": "Centro de Negocios Liniers",
+    "address": "Dirección: Avenida Rivadavia 11097 local 05",
+    "phone": "Teléfono: 11-3951-9443",
+    "time": "Horario de Atención: Lunes a Viernes, de 10:00 hs a 15:00hs"
+  },
+  "four": {
+    "title": "Centro de Negocios Neuquén",
+    "address": "Dirección: Talero 465, PB, Neuquén",
+    "phone": "Teléfono: (299) 4730-090",
+    "time": "Horario de Atención: Lunes a Viernes, de 8:00 hs a 15:00hs"
+  }
+}

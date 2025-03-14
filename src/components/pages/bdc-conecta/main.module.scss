@@ -1,0 +1,176 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  * {
+    cursor: default;
+  }
+
+  .tabs {
+    width: 100%;
+    @include maxScreenWidth();
+    padding: 120px var(--spacing-lg);
+
+    .tabsContainer {
+      display: flex;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+      .tabLabel {
+        color: var(--color-light-gray-600);
+        transition: color 300ms ease;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        border: 0;
+        border-bottom: 3px solid transparent;
+        &.active {
+          color: var(--color-navy-blue-800);
+          border-bottom: 3px solid var(--color-agro-500);
+          border-radius: 0;
+        }
+      }
+    }
+    .tabsContent {
+      width: 100%;
+      display: flex;
+      gap: 3em;
+      flex-direction: column;
+      @media screen and (min-width: 972px) {
+        gap: 10em;
+        flex-direction: row;
+      }
+      > div {
+        gap: var(--spacing-lg);
+        padding-top: var(--spacing-lg);
+        @media screen and (min-width: 972px) {
+          padding-top: 80px;
+          gap: var(--spacing-lg);
+        }
+      }
+      .section {
+        @media screen and (min-width: 972px) {
+          max-width: 33.4em;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-lg);
+
+        .list {
+          display: flex;
+          flex-direction: column;
+          gap: var(--spacing-md);
+          padding-left: var(--spacing-lg);
+        }
+        > button {
+          align-self: flex-start;
+        }
+      }
+      .icon {
+        align-self: center;
+        svg {
+          max-width: 90vw;
+          height: auto;
+        }
+      }
+    }
+  }
+  .greenBox {
+    background-color: var(--color-green-100);
+    padding: 120px var(--spacing-lg);
+    width: 100%;
+    .content {
+      @include maxScreenWidth;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3em;
+      .title {
+        align-self: flex-start;
+        max-width: 500px;
+      }
+      .cta {
+        width: 241px;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        padding-bottom: 1em;
+        @media screen and (min-width: 576px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        .card {
+          background-color: var(--color-white);
+          max-width: 424px;
+          min-height: 231px;
+          padding: 1em;
+          display: flex;
+          flex-direction: column;
+          @media screen and (min-width: 576px) {
+            min-height: 331px;
+          }
+          .icon {
+            padding: 1em;
+          }
+          p {
+            padding-left: 1em;
+            flex: 1;
+            align-content: space-evenly;
+          }
+        }
+      }
+    }
+  }
+
+  .propuestas {
+    padding: 120px var(--spacing-lg);
+    width: 100%;
+    .content {
+      @include maxScreenWidth;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3em;
+      .title {
+        align-self: flex-start;
+        max-width: 540px;
+      }
+      .cards {
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        flex-direction: column;
+        @media screen and (min-width: 576px) {
+          flex-direction: row;
+        }
+        .card {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          padding-top: 2.5em;
+          .icon {
+            width: 64px;
+            height: 64px;
+            path {
+              fill: var(--color-agro-600p);
+            }
+          }
+          .list {
+            padding-left: 1.5em;
+            flex: 1;
+          }
+          .cta {
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+}

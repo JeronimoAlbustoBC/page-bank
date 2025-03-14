@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Obtené liquidez usando tus cobros pendientes",
+        "background": "/images/factoring/hero/hero-1.png",
+        "backgroundAlt": "Obtené liquidez al momento usando tus cobros pendientes"
+      },
+      "two": {
+        "title": "Financiá tu Pyme y aprovechá todas las oportunidades",
+        "background": "/images/factoring/hero/hero-2.png",
+        "backgroundAlt": "Financiá tu Pyme y aprovechá todas las oportunidades"
+      }
+    }
+  },
+  "definicion": {
+    "title": "¿Qué es cesión de cobros?",
+    "text": "Es una herramienta de financiamiento de corto plazo que te ayuda a resolver tus necesidades comerciales. Podés acceder a una mayor liquidez a partir de lo que vas facturando.",
+    "cards": {
+      "one": {
+        "text": "Convertís tus facturas pendientes de cobro en efectivo cuando lo necesites",
+        "image": "/images/factoring/que-es/card-1.png",
+        "imageAlt": ""
+      },
+      "two": {
+        "text": "Maximizá tu<br></br>flujo de caja.",
+        "image": "/images/factoring/que-es/card-2.png",
+        "imageAlt": ""
+      },
+      "three": {
+        "text": "Financiá tus proyectos sin requisitos complementarios, solo con tus facturas",
+        "image": "/images/factoring/que-es/card-3.png",
+        "imageAlt": ""
+      },
+      "four": {
+        "text": "Línea de crédito paralela al financiamiento tradicional",
+        "image": "/images/factoring/que-es/card-4.png",
+        "imageAlt": ""
+      }
+    }
+  },
+  "animated": {
+    "cards": {
+      "one": {
+        "text": "Cedé los derechos de cobro de tus facturas a Banco de Comercio",
+        "image": "/images/factoring/animated/one.png",
+        "number": "1"
+      },
+      "two": {
+        "text": "Banco de Comercio informa al deudor cedido la cesión de derechos y comienza la gestión de cobros",
+        "image": "/images/factoring/animated/two.png",
+        "number": "2"
+      },
+      "three": {
+        "text": "El Banco te anticipa los fondos",
+        "image": "/images/factoring/animated/three.png",
+        "number": "3"
+      },
+      "four": {
+        "text": "El deudor cancela la factura en la cuenta de Banco de Comercio",
+        "image": "/images/factoring/animated/four.png",
+        "number": "4"
+      },
+      "five": {
+        "text": "El Banco de Comercio libera el disponible de esa factura al cliente",
+        "image": "/images/factoring/animated/five.png",
+        "number": "5"
+      }
+    }
+  },
+  "facturas": {
+    "title": "Adelantá el cobro de tus facturas pendientes de pago",
+    "cards": {
+      "one": {
+        "title": "Cesión de derechos de contrato con tu Obra Social/Prepaga",
+        "text": "Cedé tus derechos de cobro y minimizá tus gastos de instrumentación y accesibilidad a una línea de crédito.",
+        "icon": "Person"
+      },
+      "two": {
+        "title": "Renovación automática",
+        "text": "Accedé a un acuerdo en cuenta corriente por 12 meses con renovación mensual",
+        "icon": "Cycle"
+      },
+      "three": {
+        "title": "Aumentá tu volumen de crédito",
+        "text": "Línea de crédito basado en tu facturación con el deudor cedido que te brinda flexibilidad en el uso de capital de trabajo.",
+        "icon": "Receipt"
+      }
+    },
+    "ctaText": "Contactá con un asesor",
+    "ctaLink": "/factoring/solicitud-de-servicios"
+  },
+  "propuestas": {
+    "title": "Conoce nuestras<br></br>propuestas por sector.",
+    "list": {
+      "franquicias": {
+        "icon": "Store",
+        "color": "color-franquicias-500",
+        "title": "Franquicias",
+        "text": "Financiamiento con mínimos requisitos para marcas y franquiciados.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/franquicias"
+      },
+      "salud": {
+        "icon": "Stethoscope",
+        "color": "color-agro-500",
+        "title": "Salud",
+        "text": "Previsibilidad para la caja de tu <br></br> institución de salud a tasas exclusivas.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/salud"
+      },
+      "transporte": {
+        "icon": "LocalShipping",
+        "color": "color-transporte-500",
+        "title": "Logística",
+        "text": "Renová tu flota de rodados con <br></br> nuestro leasing.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/transporte"
+      }
+    }
+  }
+}

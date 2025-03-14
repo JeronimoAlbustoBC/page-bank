@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "title": "Cobros y pagos más eficientes y ágiles automatizados con nuestras APIs",
+        "background": "/images/soluciones-para-empresas/hero/hero-1.png",
+        "backgroundAlt": "Soluciones para Empresas"
+      },
+      "two": {
+        "title": "Potenciá tu cadena de valor y generá fidelización",
+        "background": "/images/soluciones-para-empresas/hero/hero-2.png",
+        "backgroundAlt": "Soluciones para Empresasv"
+      },
+      "three": {
+        "title": "Operá con COMEX asesorado por expertos",
+        "background": "/images/soluciones-para-empresas/hero/hero-3.png",
+        "backgroundAlt": "Soluciones para Empresasv"
+      }
+    }
+  },
+  "herramientas": {
+    "title": "Conocé las herramientas financieras para tu empresa",
+    "list": {
+      "one": {
+        "title": "Cobros y Pagos Automáticos",
+        "text": "Con nuestras APIs optimizás tiempos, reducís costos y maximizás recursos, llevando tu empresa a un nuevo modelo de administración y agilidad en tesorería.",
+        "icon": "Cycle",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas/solicitud-de-servicios",
+        "formDefault": "Cobranzas y pagos",
+        "boxColor": "color-navy-blue-50",
+        "list": {
+          
+        }
+      },
+      "two": {
+        "title": "e-cheq",
+        "text": "Adaptamos el descuento de e-cheqs a las necesidades de tu empresa para que mantengas tu operación y cumplas con tu planificación financiera.",
+        "icon": "Bulb",
+        "ctaText": "Accedé",
+        "ctaLink": "/soluciones-para-empresas/solicitud-de-servicios",
+        "formDefault": "e-cheq",
+        "boxColor": "color-agro-100",
+        "list": {
+          
+        }
+      },
+      "three": {
+        "title": "COMEX",
+        "text": "Simplificamos tus operaciones internacionales con propuestas a medida, asegurando que cada operación  sea rápida, segura y eficiente.",
+        "icon": "TrendingUp",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas/solicitud-de-servicios",
+        "formDefault": "COMEX",
+        "boxColor": "color-navy-blue-100",
+        "list": {
+          
+        }
+      },
+      "four": {
+        "title": "Cesión de cobros",
+        "text": "Accedé a mayor liquidez con nuestro factoring a medida que facturás, una solución de financiamiento a corto plazo que se adapta a las necesidades de tu empresa.",
+        "icon": "Payments",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas/solicitud-de-servicios",
+        "formDefault": "Factoring",
+        "boxColor": "color-navy-blue-50",
+        "list": {
+        }
+      },
+      "five": {
+        "title": "Financiamiento",
+        "text": "Ofrecemos financiamiento a medida de tu empresa. Contá con el respaldo de nuestros oficiales expertos, quienes te brindan un asesoramiento especializado en cada etapa.",
+        "icon": "Task",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas/solicitud-de-servicios",
+        "formDefault": "Financiamiento de Exportaciones",
+        "boxColor": "color-agro-100",
+        "list": {
+        
+        }
+      },
+      "six": {
+        "title": "Inversiones",
+        "text": "Maximizá tus rendimientos con nuestras diversas opciones de inversión acorde al perfil de tu empresa.",
+        "icon": "BarChart4",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/soluciones-para-empresas/solicitud-de-servicios",
+        "formDefault": "Inversiones",
+        "boxColor": "color-agro-100",
+        "list": {}
+      }
+    }
+  },
+  "ofrecemos": {
+    "title": "Con nuestro modelo tailor made, ajustamos nuestra propuesta de valor diferencial acorde a tus necesidades.",
+    "list": {
+      "franquicias": {
+        "icon": "Store",
+        "color": "color-franquicias-500",
+        "title": "Franquicias",
+        "text": "Financiamiento con mínimos requisitos para marcas y franquiciados.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/franquicias"
+      },
+      "salud": {
+        "icon": "Stethoscope",
+        "color": "color-agro-500",
+        "title": "Salud",
+        "text": "Previsibilidad para la caja de tu <br></br> institución de salud a tasas exclusivas.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/salud"
+      },
+      "transporte": {
+        "icon": "LocalShipping",
+        "color": "color-transporte-500",
+        "title": "Logística",
+        "text": "Renová tu flota de rodados con <br></br> nuestro leasing.",
+        "ctaText": "Conocé Más",
+        "ctaLink": "/transporte"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "title": "Centro de Ayuda<br></br>Preguntas Frecuentes",
+    "background": "/images/faqs/hero.png",
+    "backgroundAlt": "Transporte"
+  },
+  "quickactions": {
+    "alta": {
+      "link": "",
+      "text": "Alta<br></br>en Cuenta",
+      "icon": "ExportNodes"
+    },
+    "homebanking": {
+      "link": "",
+      "text": "Uso de<br></br>Homebanking",
+      "icon": "Devices"
+    },
+    "productos": {
+      "link": "",
+      "text": "Contratación<br></br>de nuevos<br></br>productos",
+      "icon": "AddCard"
+    }
+  },
+  "questions": {
+    "title": "FAQs",
+    "list": {
+      "one": {
+        "title": "¿Qué son los Préstamos a sola firma?",
+        "text": "¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?"
+      },
+      "two": {
+        "title": "¿Qué son los Préstamos a sola firma?",
+        "text": "¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?"
+      },
+      "three": {
+        "title": "¿Qué son los Préstamos a sola firma?",
+        "text": "¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?"
+      },
+      "four": {
+        "title": "¿Qué son los Préstamos a sola firma?",
+        "text": "¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?"
+      },
+      "five": {
+        "title": "¿Qué son los Préstamos a sola firma?",
+        "text": "¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?¿Qué son los Préstamos a sola firma?"
+      }
+    }
+  }
+}

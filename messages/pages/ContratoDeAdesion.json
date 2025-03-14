@@ -1,0 +1,158 @@
+{
+  "title": "Contrato de Adhesión – Ley 24-240",
+  "text":"Ponemos a su disposición un ejemplar del modelo de contrato de cada uno de nuestros productos y servicios:",
+  "sections": {
+    "one": {
+      "title": "Caja de Ahorro:",
+      "list": {
+        "one": {
+          "text": "Solicitud de Apertura Caja de Ahorro",
+          "href": "archivos/contratodeadhesion/F-17-23-Solicitud-de-Apertura-Caja-de-Ahorro.pdf"
+        }
+      }
+    },
+    "two": {
+      "title": "Caja de Seguridad:",
+      "list": {
+        "one": {
+          "text": "Caja de Seguridad – Grupo I",
+          "href": "archivos/contratodeadhesion/F-135-15-Caja-de-Seguridad-Contrato-de-Locacion-Grupo-I.pdf"
+        },
+        "two": {
+          "text": "Caja de Seguridad – Grupo II",
+          "href": "archivos/contratodeadhesion/F-136-15-Caja-de-Seguridad-Contrato-de-Locacion-Grupo-II.pdf"
+        },
+        "three": {
+          "text": "Caja de Seguridad – Grupo III",
+          "href": "archivos/contratodeadhesion/F-137-17-Caja-de-Seguridad-Contrato-de-Locacion-Grupo-III.pdf"
+        },
+        "four": {
+          "text": "Caja de Seguridad – Grupo IV",
+          "href": "archivos/contratodeadhesion/F-138-15-Caja-de-Seguridad-Contrato-de-Locacion-Grupo-IV.pdf"
+        },
+        "five": {
+          "text": "Caja de Seguridad – Grupo V",
+          "href": "archivos/contratodeadhesion/F-139-16-Caja-de-Seguridad-Contrato-de-Locacion-Grupo-V.pdf"
+        }
+      }
+    },
+    "three": {
+      "title": "Cheque de Pago Diferido:",
+      "list": {
+        "one": {
+          "text": "Solicitud de Descuento CPD sin Recurso",
+          "href": "archivos/contratodeadhesion/F-COM-0023-.-10-Solic-Descuento-CPD-Sin-Recurso.pdf"
+        },
+        "two": {
+          "text": "Solicitud de Descuento CPD con Recurso",
+          "href": "archivos/contratodeadhesion/F-42-Rev.-11-F-COM-0022-Solicitud-de-Descuento-CPD-Con-Recurso.pdf"
+        },"three": {
+          "text": "Solicitud de Descuento CPD sin Recurso – No Clientes del Banco",
+          "href": "https://drive.google.com/file/d/1Lgz6KGQcW_DxmSUmE6zSHrJPnC1rCpTf/view"
+        }
+      }
+    },
+    "four": {
+      "title": "Cuenta Corriente:",
+      "list": {
+        "one": {
+          "text": "Solicitud de Apertura de Cuenta Corriente Persona Jurídica",
+          "href": "archivos/contratodeadhesion/F-23-28-Solicitud-de-Apertura-de-Cuenta-Corriente-PJ-con-anexos.pdf"
+        },
+        "two": {
+          "text": "Solicitud de apertura de Cuenta Corriente Persona Humana",
+          "href": "archivos/contratodeadhesion/F-18-9-Solicitud-de-Apertura-de-Cuenta-Corriente-PH.pdf"
+        },
+        "three": {
+          "text": "Solicitud de descubierto transitorio",
+          "href": "archivos/contratodeadhesion/F-260-2-Solicitud-de-Descubierto-Transitorio-con-CBU.pdf"
+        },
+        "four": {
+          "text": "Solicitud de descubierto por CBU",
+          "href": "archivos/contratodeadhesion/F-256-2-Solicitud-de-Descubierto-Cobranza-por-CBU.pdf"
+        },
+        "five": {
+          "text": "Solicitud de descubierto común",
+          "href": "archivos/contratodeadhesion/F-254-4-Solicitud-de-Descubierto-Comun.pdf"
+        }
+      }
+    },
+    "five": {
+      "title": "Cuenta Sueldo:",
+      "list": {
+        "one": {
+          "text": "Solicitud de Apertura Cuenta Sueldo",
+          "href": "archivos/contratodeadhesion/F-16-8-Solicitud-de-apertura-de-Cuenta-Sueldo.pdf"
+        },
+        "two": {
+          "text": "Declaración Jurada de Cuentas",
+          "href": "archivos/contratodeadhesion/F-143-3-Apertura-Simplificada-DD.JJ-Gratuita-Universal..pdf"
+        }
+      }
+    },
+    "six": {
+      "title": "Prenda de cheques:",
+      "list": {
+        "one": {
+          "text": "Oferta de Prenda de Cheques",
+          "href": "https://drive.google.com/file/d/1-V2fw43zAATSr-ObZ2dIzhtL14kjbFPl/view"
+        }
+      }
+    },
+    "seven": {
+      "title": "Préstamos:",
+      "list": {
+        "one": {
+          "text": "Solicitud de Préstamo Personal – Banco de Comercio",
+          "href": "archivos/contratodeadhesion/F-414-1-Prestamo-Personal-en-Pesos-Condiciones-Generales-bcsa.pdf"
+        },
+        "two": {
+          "text": "Solicitud de Préstamos Prendarios",
+          "href": "archivos/contratodeadhesion/PP0103-y-PP0203-Solicitud-Completa-03.2022.pdf"
+        },
+        "three": {
+          "text": "Continuación del Contrato de Prenda",
+          "href": "archivos/contratodeadhesion/PP0139-Continuacion-del-Contrato-de-Prenda-A4.pdf"
+        },
+        "four": {
+          "text": "Solicitud de Préstamo Personal – Ampromm",
+          "href": "archivos/contratodeadhesion/AMPROMM-Prestamo-Personal-Solicitud-con-Pagare-y-Condiciones-Generales-MB-1.pdf"
+        }
+      }
+    },
+    "eight": {
+      "title": "Tarjeta de Débito:",
+      "list": {
+        "one": {
+          "text": "Solicitud de Tarjeta de Débito",
+          "href": "archivos/contratodeadhesion/F-217-4-Solicitud-Tarjeta-Debito.pdf"
+        }
+      }
+    },
+    "nine": {
+      "title": "Tarjeta de Crédito:",
+      "list": {
+        "one": {
+          "text": "Solicitud de emisión de Tarjeta de Crédito GRISINO",
+          "href": "archivos/contratodeadhesion/F-14-14-Solicitud-de-Tarjeta-de-Credito-Grisino.pdf"
+        },
+        "two": {
+          "text": "Solicitud de emisión de Tarjeta de Crédito adicional",
+          "href": "https://drive.google.com/file/d/13-EW5sMwakkvvoRcWAwVFQbnacZiBtwc/view"
+        },
+        "three": {
+          "text": "Solicitud de emisión de Tarjeta de Crédito Banco de Comercio",
+          "href": "archivos/contratodeadhesion/F-15-15-Solicitud-de-Emision-de-Tarjeta-Credito-Banco-de-Comercio.pdf"
+        },
+        "four": {
+          "text": "Solicitud de Débito Automático Tarjeta de Crédito – Persona Humana",
+          "href": "archivos/contratodeadhesion/F-281-3-Solicitud-Debito-Automatico-TC-PH.pdf"
+        },
+        "five": {
+          "text": "Solicitud de Débito Automático Tarjeta de Crédito – Persona Jurídica",
+          "href": "archivos/contratodeadhesion/F-280-3-Solicitud-Debito-Automatico-TC-PJ.pdf"
+        }
+      }
+    }
+  }
+}

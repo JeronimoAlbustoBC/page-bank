@@ -1,0 +1,33 @@
+{
+  "title": "E-Learning",
+  "text":"Descubrí el Nuevo Home Banking de Banco de Comercio. Te contamos cómo darte de alta y empezar a operar en nuestro nuevo Home Banking.",
+  "sections": {
+    "one": {
+      "title": "",
+      "list": {
+        "one": {
+          "text": "Nuevo Home Banking Banco de Comercio - Primer Ingreso",
+          "href": "https://youtu.be/NE7zSN8e_5U"
+        }
+      }
+    },
+    "two": {
+      "title": "",
+      "list": {
+        "one": {
+          "text": "Nuevo Home Banking Banco de Comercio - Alta Operadores",
+          "href": "https://youtu.be/fecZF6ZTbss"
+        }
+      }
+    },
+    "three": {
+      "title": "",
+      "list": {
+        "one": {
+          "text": "Nuevo Home Banking Banco de Comercio - Alta Usuario Empresa",
+          "href": "https://youtu.be/fecZF6ZTbss"
+        }
+      }
+    }
+  }
+}

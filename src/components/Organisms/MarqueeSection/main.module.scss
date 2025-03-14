@@ -1,0 +1,35 @@
+@import "@/app/mixins.scss";
+
+@keyframes show {
+  0%,
+  50% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+
+.marqueeContainer {
+  
+  padding: 4px 0;
+  animation: show 3s forwards;
+}
+
+.itemContent {
+  display: flex;
+  gap: 12px;
+}
+.link,
+.dash {
+  @include subtitle1;
+  letter-spacing: 0.07em;
+}
+.link {
+  padding-left: 8px;
+}
+.dash {
+  padding-right: 8px;
+}

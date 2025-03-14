@@ -1,0 +1,87 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .infoSection1 {
+    background-color: var(--color-info-50);
+    width: 100%;
+    .sectionsContainer {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-xxl);
+      max-width: 645px;
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-md);
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+    }
+
+    :global(.image) {
+      height: 547px;
+      margin-top: var(--spacing-3xxl);
+    }
+  }
+
+  .valores {
+    width: 100%;
+    @include maxScreenWidth;
+    padding: 120px var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      gap: 1em;
+      .card {
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        box-shadow: none;
+        background-color: var(--color-navy-blue-50);
+        padding: 2em 1em;
+        grid-template-rows: 2fr 1fr 1.5fr;
+        place-items: center;
+        p.title {
+          max-width: 7em;
+        }
+
+        svg path {
+          fill: var(--color-navy-blue-700);
+        }
+      }
+    }
+  }
+
+  .sumate {
+    width: 100%;
+    background-color: var(--color-green-100);
+    .sumateBox {
+      h1 {
+        font-size: var(--typography-h1-font-size) !important;
+      }
+      p {
+        font-size: var(--typography-subtitle3-font-size) !important;
+      }
+    }
+  }
+}

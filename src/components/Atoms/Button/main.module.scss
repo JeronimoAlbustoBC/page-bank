@@ -1,0 +1,69 @@
+@import "@/app/mixins.scss";
+.container {
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  text-align: center;
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+  transition: box-shadow 150ms ease-in-out;
+
+  &.primary {
+    background-color: var(--color-green-300);
+    border: 3px solid var(--color-green-300);
+    color: var(--color-dark-gray-900);
+
+    &:disabled {
+      color: var(--color-light-gray-900);
+      background-color: var(--color-light-gray-200);
+      border-color: var(--color-light-gray-200);
+    }
+  }
+
+  &.secondary {
+    background-color: var(--color-white);
+    border: 3px solid #2a4e5d;
+    color: #2a4e5d;
+
+    &:disabled {
+      border-color: var(--color-light-gray-900);
+      color: var(--color-light-gray-900);
+    }
+  }
+
+  &.tertiary {
+    background-color: transparent;
+    border: 3px solid transparent;
+    color: #417632; //TODO design variable color
+
+    &:disabled {
+      color: var(--color-light-gray-900);
+    }
+  }
+
+  &.tertiary:not(:disabled):hover,
+  &.tertiary:not(:disabled):active {
+    text-decoration: underline;
+  }
+
+  &:not(.tertiary):not(:disabled):hover {
+    box-shadow: var(--box-shadow-default);
+  }
+  &:not(.tertiary):not(:disabled):active {
+    box-shadow: var(--box-shadow-inner-default);
+  }
+  &.small {
+    padding: var(--spacing-md) var(--spacing-xxl);
+    @include buttonSmall();
+  }
+  &.medium {
+    @include buttonMedium();
+  }
+  &.large {
+    @include buttonLarge();
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+}

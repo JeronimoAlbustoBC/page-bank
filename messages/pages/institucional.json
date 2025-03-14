@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "list": {
+      "one": {
+        "color": "color-white",
+        "title": "Sobre Nosotros",
+        "subtitle": "En Banco de Comercio estamos al servicio de nuestros clientes combinando tradición con innovación para ofrecer soluciones financieras confiables, personalizadas y respaldados por una amplia experiencia en el mundo financiero.",
+        "image": "/images/institucional/hero.jpg",
+        "imageAlt": "Más de 64 Años de Experiencia en el Sector Financiero",
+        "imageDecoration": "two",
+        "backgroundColor": "color-info-900",
+        "breadcrumbColor": "color-white",
+        "ctaText": "",
+        "imageIcons": {
+          "one": {
+            "icon": "Wallet",
+            "position": {
+              "top": "unset",
+              "left": "unset",
+              "bottom": "60px",
+              "right": "-30px",
+              "zIndex": "2"
+            }
+          },
+          "two": {
+            "icon": "DottedCircle",
+            "position": {
+              "top": "191px",
+              "left": "-67px",
+              "bottom": "unset",
+              "right": "unset",
+              "zIndex": "2"
+            }
+          },
+          "three": {
+            "icon": "GreenCircle",
+            "position": {
+              "top": "-50px",
+              "left": "-50px",
+              "bottom": "unset",
+              "right": "unset",
+              "zIndex": "0"
+            }
+          },
+          "four": {
+            "icon": "ContainedArrow",
+            "position": {
+              "top": "unset",
+              "left": "unset",
+              "bottom": "-40px",
+              "right": "125px",
+              "zIndex": "2"
+            }
+          }
+        }
+      }
+    }
+  },
+  "subhero": {
+    "image": "/images/institucional/mision.png",
+    "imageAlt": "Misión y visión",
+    "items": {
+      "one": {
+        "title": "Nuestra Misión",
+        "text": "Impulsar el crecimiento financiero de nuestros clientes a través de soluciones focalizadas en sus necesidades específicas, brindando acompañamiento continuo y poniendo a disposición las últimas herramientas para mejorar la calidad de nuestros productos."
+      },
+      "two": {
+        "title": "Visión",
+        "text": "Ser el banco líder en innovación, servicio y atención personalizada en Argentina."
+      }
+    }
+  },
+  "valores": {
+    "title": "Nuestros Pilares de Trabajo",
+    "cards": {
+      "one": {
+        "icon": "Person",
+        "title": "Atención Personalizada",
+        "text": "Cada cliente es único y merece un trato especial y soluciones a medida de sus necesidades."
+      },
+      "two": {
+        "icon": "Checklist",
+        "title": "Asesoramiento Financiero",
+        "text": "Decisiones informadas con el respaldo de expertos en las distintas áreas."
+      },
+      "three": {
+        "icon": "Cycle",
+        "title": "Mejora Continua",
+        "text": "Innovamos constantemente para optimizar procesos y herramientas."
+      },
+      "four": {
+        "icon": "Widgets",
+        "title": "Diversidad de Productos",
+        "text": "Amplia oferta de servicios financieros para cada necesidad."
+      }
+    }
+  },
+  "sumate": {
+    "title": "¿Querés sumarte a nuestro equipo?",
+    "titleVariant": "",
+    "text": "Trabajá con nosotros y crecé en tu carrera laboral",
+    "textVariant": "",
+    "ctaText": "Contactanos",
+    "ctaLink": "mailto:rrhh@bancodecomercio.com.ar",
+    "image": "/images/institucional/sumate.png",
+    "imageAlt": "",
+    "backgroundColor": "color-navy-blue-800"
+  }
+}

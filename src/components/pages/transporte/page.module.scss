@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .infoSection1,
+  .infoSection2 {
+    background-color: var(--color-light-gray-50);
+    width: 100%;
+    display: flex;
+    :global(.image) {
+      max-height: 542px;
+      margin-top: var(--spacing-3xxl);
+      max-width: 540px;
+    }
+    .section {
+      &:not(:first-child) {
+        padding: var(--spacing-3xxl) 0;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-xxl);
+      h3 {
+        max-width: 433px;
+      }
+      ul.content {
+        padding-left: var(--spacing-lg);
+        width: 100%;
+        max-width: 642px;
+        p {
+          font-weight: 500 !important;
+          font-size: 1.5em;
+          line-height: 2em;
+        }
+      }
+    }
+  }
+  .infoSection2 > div {
+    flex-direction: row-reverse;
+    gap: 10vw;
+  }
+}

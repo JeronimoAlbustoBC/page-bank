@@ -1,0 +1,36 @@
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-md) var(--spacing-xl)
+    var(--spacing-md) !important;
+  max-width: 535px; // temporary
+  background-color: var(--color-white);
+
+  div.image {
+    position: relative;
+    border-radius: var(--spacing-md);
+    overflow: hidden;
+    width: 100%;
+  }
+  > div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-md);
+  }
+
+  .icon {
+    display: grid;
+    place-items: center;
+  }
+}
+
+.center {
+  align-items: center;
+}
+
+.left {
+  align-items: flex-start;
+}

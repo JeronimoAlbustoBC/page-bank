@@ -1,0 +1,321 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .infoSection {
+    > div {
+      gap: 100px;
+    }
+  }
+
+  .infoSection1 {
+    :global(.image) {
+      width: 330px;
+      height: 350px;
+      img {
+        object-fit: contain;
+      }
+    }
+    > div {
+      gap: 0;
+      > div {
+        max-width: 800px;
+      }
+    }
+  }
+  .infoSection,
+  .infoSection1 {
+    width: 100%;
+
+    .section {
+      &:not(:first-child) {
+        padding: var(--spacing-3xxl) 0;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-xxl);
+      .uppercase {
+        text-transform: uppercase;
+      }
+      h3 {
+        max-width: 433px;
+      }
+      ul.content {
+        padding-left: var(--spacing-lg);
+        width: 100%;
+        max-width: 642px;
+        p {
+          font-size: 1.5em;
+          line-height: 2em;
+        }
+      }
+      .contactButtons {
+        display: flex;
+        gap: var(--spacing-xl);
+      }
+    }
+  }
+  .account {
+    width: 100%;
+    position: relative;
+    .greenBackground {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 39em;
+      background-color: var(--color-agro-700);
+      z-index: 0;
+
+      ~ div {
+        padding-top: 80px;
+      }
+      @media screen and (min-width: 450px) {
+        height: 36em;
+        ~ div {
+          padding-top: 120px;
+        }
+      }
+      @media screen and (min-width: 666px) {
+        height: 30em;
+      }
+      @media screen and (min-width: 972px) {
+        height: 30em;
+      }
+    }
+    .section {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 7em;
+      .sectionOne {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+        > h3 {
+          max-width: 669px;
+        }
+      }
+      .sectionTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+
+        @media screen and (min-width: 972px) {
+          max-width: 650px;
+        }
+
+        .list {
+          margin-left: var(--spacing-lg);
+        }
+
+        .buttons {
+          display: flex;
+          gap: var(--spacing-lg);
+        }
+      }
+    }
+    :global(.image) {
+      display: none;
+      @media screen and (min-width: 972px) {
+        display: block;
+        width: 500px;
+        height: 670px;
+        margin-top: 3em;
+      }
+    }
+  }
+  .consultaContainer {
+    .bannerItem {
+      position: relative;
+      display: flex;
+      gap: 125px;
+      align-items: center;
+      width: 100%;
+      padding: 0px var(--spacing-3xxl) 0 var(--spacing-lg);
+      .section {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-lg);
+        height: 100%;
+      }
+      > div {
+        margin-left: unset;
+        margin-right: unset;
+        padding: 0;
+        padding-top: var(--spacing-xxl);
+        padding-bottom: var(--spacing-xxl);
+        align-items: center;
+        > div:first-of-type {
+          max-width: 774px;
+        }
+      }
+
+      :global(.image) {
+        height: 274px;
+        max-width: 400px;
+        @media screen and (min-width: 972px) {
+          width: 400px;
+        }
+      }
+    }
+  }
+  .greenBox {
+    position: relative;
+    width: 100vw;
+
+    .content {
+      display: flex;
+      width: 100%;
+      @include maxScreenWidth;
+      padding: 120px var(--spacing-lg) 20px;
+      gap: var(--spacing-3xxl);
+      flex-direction: column;
+
+      @media screen and (min-width: 972px) {
+        flex-direction: row;
+      }
+      .text {
+        display: flex;
+        max-width: 770px;
+        flex-direction: column;
+        gap: var(--spacing-xl);
+        @media screen and (min-width: 972px) {
+          width: 60%;
+        }
+      }
+
+      .icons {
+        position: relative;
+        height: 10em;
+        margin-bottom: 5em;
+        @media screen and (min-width: 972px) {
+          height: 10em;
+          margin-bottom: 0;
+        }
+        * {
+          fill: var(--color-agro-600p);
+        }
+        svg {
+          position: absolute;
+          left: 220px;
+          transform-origin: bottom left;
+        }
+      }
+    }
+  }
+  .tabs {
+    width: 100%;
+    @include maxScreenWidth();
+    padding: 120px var(--spacing-lg);
+
+    .tabsContainer {
+      display: flex;
+      gap: var(--spacing-lg);
+      flex-wrap: wrap;
+      .tabLabel {
+        color: var(--color-light-gray-600);
+        transition: color 300ms ease;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        border: 0;
+        border-bottom: 3px solid transparent;
+        &.active {
+          color: var(--color-navy-blue-800);
+          border-bottom: 3px solid var(--color-agro-500);
+          border-radius: 0;
+        }
+      }
+    }
+    .tabsContent {
+      width: 100%;
+      > div {
+        gap: var(--spacing-lg);
+        padding-top: var(--spacing-lg);
+        @media screen and (min-width: 972px) {
+          padding-top: 80px;
+          gap: var(--spacing-lg);
+        }
+      }
+      .section {
+        @media screen and (min-width: 972px) {
+          max-width: 33.4em;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-lg);
+
+        .list {
+          display: flex;
+          flex-direction: column;
+          gap: var(--spacing-md);
+          padding-left: var(--spacing-lg);
+        }
+      }
+      :global(.image) {
+        height: 374px;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .propuestas {
+    padding: 120px var(--spacing-lg);
+    width: 100%;
+    background-color: var(--color-green-100);
+    .content {
+      @include maxScreenWidth;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3em;
+      .title {
+        align-self: flex-start;
+        max-width: 540px;
+      }
+      .cards {
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        flex-direction: column;
+        @media screen and (min-width: 576px) {
+          flex-direction: row;
+        }
+        .card {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          padding-top: 2.5em;
+          background-color: var(--color-white);
+          .icon {
+            width: 64px;
+            height: 64px;
+            path {
+              fill: var(--color-franquicias-500);
+            }
+          }
+          .list {
+            padding-left: 1.5em;
+            flex: 1;
+          }
+          .cta {
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+}

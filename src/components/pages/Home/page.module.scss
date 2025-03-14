@@ -1,0 +1,141 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .infoSection1 {
+    background-color: #ebeef5;
+    width: 100%;
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-lg);
+    }
+    .tabs {
+      display: flex;
+      gap: 4px;
+      max-width: 645px;
+      .tabItem {
+        border: none;
+        border-bottom: 3px solid transparent;
+        border-radius: 0;
+        padding: 4px 8px;
+        background: none;
+        transition: border 150ms ease;
+        @include subtitle2;
+        color: var(--color-light-gray-600);
+        &.active {
+          border-bottom-color: var(--color-green-400);
+          color: var(--color-navy-blue-800);
+        }
+      }
+    }
+    .tabsContent {
+      display: flex;
+      max-width: 645px;
+
+      .content {
+        position: relative;
+        background-color: var(--color-white);
+        padding: var(--spacing-lg) !important;
+        width: 100%;
+        min-height: 20.6em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: transform 150ms ease-in-out;
+        &:hover {
+          transform: scale(1.01);
+        }
+
+        ul {
+          margin-left: 18px;
+          list-style: square;
+          padding: 0.5em 0.5em 1.5em;
+          height: 100%;
+        }
+        button {
+          width: 162px;
+          justify-self: flex-end;
+        }
+        .icon {
+          position: absolute;
+          top: 4em;
+          right: 2em;
+          @include hideOnMobile;
+          height: 70px;
+          path {
+            fill: var(--color-green-600);
+          }
+        }
+      }
+    }
+
+    :global(.image) {
+      max-height: 664px;
+      margin-top: var(--spacing-3xxl);
+    }
+  }
+
+  .offering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: #ebeef5;
+    padding: 120px var(--spacing-lg);
+    gap: 73px;
+
+    .offeringTitle {
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .cards {
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      @include maxScreenWidth;
+      padding: 0 var(--spacing-lg);
+      flex-direction: column;
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 16px;
+        padding: 20px 16px 38px 16px;
+        background-color: var(--color-white);
+        transition: transform 150ms ease-in-out;
+        &:hover {
+          transform: scale(1.01);
+        }
+        .icon {
+          display: grid;
+          place-items: center;
+          width: 110px;
+          height: 110px;
+        }
+
+        .separator {
+          height: 6px;
+          width: 55%;
+          margin: 0 auto;
+          border-radius: 8px;
+        }
+        button {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

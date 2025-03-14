@@ -1,0 +1,84 @@
+@import "@/app/mixins.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+  .subhero {
+    width: 100%;
+    padding: 120px var(--spacing-lg);
+    background-color: var(--color-green-100);
+
+    .card {
+      width: 100%;
+      @include maxScreenWidth();
+      background-color: var(--color-white);
+      padding-top: 3em;
+      padding-bottom: 4em;
+
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-lg);
+
+      .list {
+        padding-left: var(--spacing-lg);
+
+        .link {
+          margin-top: var(--spacing-sm);
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .sectionOne,
+  .sectionTwo {
+    width: 100%;
+
+    .content {
+      display: flex;
+      width: 100%;
+      @include maxScreenWidth();
+      padding: 120px var(--spacing-lg);
+
+      .leftSide,
+      .rightSide {
+        flex: 1;
+      }
+
+      .leftSide {
+        display: flex;
+        align-items: center;
+        > * {
+          max-width: 419px;
+        }
+      }
+      .rightSide {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        p {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5em;
+        }
+        ul {
+          padding-left: var(--spacing-md);
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .sectionTwo {
+    background-color: var(--color-green-50);
+  }
+}

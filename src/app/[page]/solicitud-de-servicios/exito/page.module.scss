@@ -1,0 +1,32 @@
+@import "@/app/mixins.scss";
+.main {
+  min-height: calc(100vh - 100px);
+  place-items: center;
+  display: grid;
+  width: 100vw;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.1575) 9.66%,
+    rgba(136, 170, 246, 0.35) 52.56%
+  );
+  * {
+    cursor: default;
+  }
+  > div:first-of-type {
+    width: 100%;
+    @include maxScreenWidth;
+    justify-self: flex-start;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 0 var(--spacing-xxl);
+  }
+  .content {
+    width: 100%;
+    @include maxScreenWidth;
+    padding: 0 var(--spacing-lg);
+
+    div:hover {
+      transform: scale(1) !important;
+    }
+  }
+}

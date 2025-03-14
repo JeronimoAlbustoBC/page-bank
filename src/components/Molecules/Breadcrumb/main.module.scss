@@ -1,0 +1,12 @@
+@import "@/app/mixins";
+div.container {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xs);
+
+  p,
+  a {
+    @include body1;
+    color: var(--color-white);
+  }
+}

@@ -1,0 +1,179 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .consultaContainer {
+    width: 100%;
+    background-color: var(--color-green-800);
+  }
+  .greenBox {
+    background-color: var(--color-green-100);
+    position: relative;
+    width: 100vw;
+    padding: var(--spacing-3xxl) 0;
+
+    .marqueeContainer {
+      min-height: 63px;
+    }
+
+    .content {
+      display: flex;
+      width: 100%;
+      @include maxScreenWidth;
+      padding: var(--spacing-3xxl) var(--spacing-lg);
+      flex-direction: column;
+
+      @media screen and (min-width: 972px) {
+        flex-direction: row;
+      }
+
+      h1 {
+        @media screen and (min-width: 972px) {
+          max-width: 1000px;
+        }
+      }
+      h5 {
+        @media screen and (min-width: 972px) {
+          max-width: 646px;
+        }
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: var(--spacing-xl);
+
+        @media screen and (min-width: 972px) {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .card {
+          align-self: stretch;
+          justify-content: space-between;
+          p {
+            padding: 0 2em;
+          }
+        }
+        .icon {
+          path {
+            fill: var(--color-navy-blue-600);
+          }
+        }
+      }
+    }
+  }
+
+  .whiteBox {
+    background-color: var(--color-white);
+    position: relative;
+    width: 100vw;
+    padding: var(--spacing-3xxl) 0;
+
+    .marqueeContainer {
+      min-height: 63px;
+    }
+
+    .content {
+      display: flex;
+      width: 100%;
+      @include maxScreenWidth;
+      padding: var(--spacing-3xxl) var(--spacing-lg);
+      flex-direction: column;
+      justify-content: center;
+
+      @media screen and (min-width: 972px) {
+        flex-direction: row;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: var(--spacing-3xxl);
+
+        @media screen and (min-width: 972px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        .card {
+          align-self: stretch;
+          justify-content: space-between;
+          box-shadow: none;
+          border: none;
+          max-width: 460px;
+          > div:first-of-type {
+            align-content: flex-end;
+          }
+          .text {
+            flex: 1;
+          }
+
+          button {
+            padding: 0.7em 62px;
+          }
+        }
+      }
+    }
+  }
+  .darkGreenBox {
+    background-color: var(--color-green-800);
+    position: relative;
+    width: 100vw;
+    padding: var(--spacing-3xxl) 0;
+
+    .content {
+      display: flex;
+      width: 100%;
+      @include maxScreenWidth;
+      padding: var(--spacing-3xxl) var(--spacing-lg);
+      flex-direction: column;
+      justify-content: center;
+
+      @media screen and (min-width: 972px) {
+        flex-direction: row;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: var(--spacing-xl);
+
+        @media screen and (min-width: 972px) {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        .card {
+          align-self: stretch;
+          justify-content: space-between;
+          box-shadow: none;
+          border: none;
+          max-width: 420px;
+          background-color: var(--color-success-100);
+          padding-top: 2.5em !important;
+          padding-bottom: 2.5em !important;
+          > div:first-of-type {
+            align-content: flex-end;
+          }
+          .icon {
+            path {
+              fill: var(--color-green-900);
+            }
+          }
+          h4 {
+            color: var(--color-green-900) !important;
+          }
+
+          button {
+            padding: 0.7em 62px;
+          }
+        }
+      }
+    }
+  }
+}

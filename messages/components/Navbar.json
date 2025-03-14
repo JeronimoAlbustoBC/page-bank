@@ -1,0 +1,106 @@
+{
+  "menu": "Menú",
+  "close-menu": "Cerrar Menú",
+  "home": "Inicio",
+  "open-account": "Comenzá a invertir",
+  "home-banking": "Home Banking",
+  "tabs": {
+    "individual": { "label": "Individuos", "link": "/individuos" },
+    "business": { "label": "Empresas", "link": "/" }
+  },
+  "pages": {
+    "soluciones": {
+      "label": "Propuestas por tipo de negocio",
+      "link": "",
+      "subitems": {
+        "comercios": {
+          "label": "Negocios y Profesionales",
+          "link": "/negocios-y-profesionales",
+          "breadcrumbText": "Negocios y Profesionales"
+        },
+        "pymes": {
+          "label": "PYMES",
+          "link": "/soluciones-para-pymes",
+          "breadcrumbText": "Propuestas para PYMES"
+        },
+        "empresas": {
+          "label": "Empresas",
+          "link": "/soluciones-para-empresas",
+          "breadcrumbText": "Propuestas para Empresas"
+        }
+      }
+    },
+    "subsegmentos": {
+      "label": "Propuestas por sector",
+      "link": "",
+      "subitems": {
+        "salud": {
+          "label": "Salud",
+          "link": "/salud",
+          "breadcrumbText": "Salud"
+        },
+        "franquicias": {
+          "label": "Franquicias",
+          "link": "/franquicias",
+          "breadcrumbText": "Franquicias"
+        },
+        "transporte": {
+          "label": "Logística",
+          "link": "/transporte",
+          "breadcrumbText": "Transporte"
+        }
+      }
+    },
+    "apis": {
+      "label": "Developers - APIStore",
+      "link": "",
+      "subitems": {
+        "bdc-conecta": {
+      	  "label": "BDCConecta",
+	  "link": "/bdc-conecta",
+	  "breadcrumbText": "BDC Conecta"
+    	}
+      }
+    },
+    "financiamiento": {
+      "label": "Financiamiento",
+      "link": "/financiamiento",
+      "breadcrumbText": "Financiamiento"
+    },
+    "inversiones": {
+      "label": "Inversiones",
+      "link": "/inversiones",
+      "breadcrumbText": "Inversiones"
+    },
+    "comex": {
+      "label": "Comex",
+      "link": "/comex",
+      "breadcrumbText": "Comex"
+    },
+    "leasing": {
+      "label": "Leasing",
+      "link": "/leasing",
+      "breadcrumbText": "Leasing"
+    },
+    "factoring": {
+      "label": "Cesión de cobros",
+      "link": "/factoring",
+      "breadcrumbText": "Cesión de cobros"
+    },
+    "institucional": {
+      "label": "Institucional",
+      "link": "/institucional",
+      "breadcrumbText": "Institucional"
+    },
+    "contacto": {
+      "label": "Contacto",
+      "link": "/consulta/solicitud-de-servicios",
+      "breadcrumbText": "Contacto"
+    },
+    "Invertir": {
+      "label": "Abrí tu cuenta",
+      "link": "/consulta/solicitud-de-servicios",
+      "breadcumbText": ""
+    }
+  }
+}

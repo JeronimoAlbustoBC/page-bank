@@ -1,0 +1,141 @@
+@import "@/app/mixins.scss";
+
+@keyframes show-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes hide-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.backdrop {
+  background: #000000b2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  // z-index: 10;
+  z-index: 110;
+
+  animation: show 300ms forwards;
+
+  &.close {
+    animation: hide 300ms forwards;
+  }
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 350px;
+  background-color: var(--color-white);
+  z-index: 120;
+  animation: show-left 300ms forwards;
+
+  &.close {
+    animation: hide-left 300ms forwards;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-xl) var(--spacing-lg);
+    width: 100%;
+
+    .logo {
+      width: 166px;
+      height: 40px;
+      position: relative;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+
+    .closeButton {
+      display: flex;
+      gap: var(--spacing-sm);
+      align-items: center;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      .icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      height: calc(100vh - 11.6em);
+    }
+    overflow: auto;
+    .individualTab button {
+      background-color: var(--color-navy-blue-100);
+      &:hover {
+        background-color: var(--color-navy-blue-200);
+      }
+    }
+    .businessTab button {
+      background-color: var(--color-green-100);
+      &:hover {
+        background-color: var(--color-green-200);
+      }
+    }
+  }
+  .bottomButtons {
+    width: 100%;
+    padding: 2em 1em;
+    border-top: 1px solid var(--color-light-gray-200);
+    display: flex;
+    gap: 1em;
+    background-color: var(--color-white);
+    button {
+      padding: 0.5em 1em;
+      width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+}

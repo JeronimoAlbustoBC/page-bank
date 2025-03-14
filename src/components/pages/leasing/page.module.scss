@@ -1,0 +1,101 @@
+@import "@/app/mixins.scss";
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  * {
+    cursor: default;
+  }
+
+  .cards {
+    background-color: var(--color-navy-blue-100);
+    width: 100%;
+
+    .content {
+      width: 100%;
+      padding: 120px var(--spacing-lg);
+      @include maxScreenWidth;
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+        align-items: stretch;
+      }
+      gap: 1.5em;
+      justify-content: center;
+      align-items: center;
+      .card {
+        flex: 1;
+        max-width: 312px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: var(--spacing-md);
+        background-color: var(--color-navy-blue-50);
+        padding: var(--spacing-2xxl) var(--spacing-md);
+        .icon {
+          height: 100px;
+          path {
+            fill: var(--color-navy-blue-700);
+          }
+        }
+      }
+    }
+  }
+
+  .banner {
+    h1 {
+      font-size: var(--typography-h1-font-size) !important;
+    }
+  }
+  .propuestas {
+    padding: 120px var(--spacing-lg);
+    width: 100%;
+    .content {
+      @include maxScreenWidth;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3em;
+      .title {
+        align-self: flex-start;
+        max-width: 540px;
+      }
+      .cards {
+        background-color: transparent;
+        display: flex;
+        gap: 1.5em;
+        width: 100%;
+        flex-direction: column;
+        @media screen and (min-width: 576px) {
+          flex-direction: row;
+        }
+        .card {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          padding-top: 2.5em;
+          .icon {
+            width: 64px;
+            height: 64px;
+            path {
+              fill: var(--color-franquicias-500);
+            }
+          }
+          .list {
+            padding-left: 1.5em;
+            flex: 1;
+          }
+          .cta {
+            width: fit-content;
+          }
+        }
+      }
+    }
+  }
+}
